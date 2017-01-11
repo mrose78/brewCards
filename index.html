@@ -16,6 +16,12 @@
 		//alert(breweryID);
 		
         alert(JSON.stringify(response.response.checkins));
+
+        for (var key in response.response.checkins) {
+        if (json.hasOwnProperty(key)) {
+            alert(json[key].checkin_id);
+        }
+        }
         } );	
 	}	
 		
