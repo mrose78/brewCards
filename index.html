@@ -1,7 +1,29 @@
 <!DOCTYPE html>
 <html>
+    <head>
+    <title>Get Untappd Checkins</title>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+        <script type="text/javascript">
+	
+	function getBeer() {
+		
+		var breweryID = document.getElementById("prompt").value;
+		//alert(breweryID);
+	
+		jQuery.get( "https://api.untappd.com/v4/brewery/info/" + breweryID +"?compact=true&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
+		//alert(breweryID);
+		
+		alert(response.response.brewery.brewery_id);
+        	} );	
+	}	
+		
+	</script>
+    <head>
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages. </p>
+<button type="button" onClick="getBeer()">Go!</button>
 </body>
 </html>
