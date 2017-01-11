@@ -12,25 +12,50 @@
 		//var breweryID = document.getElementById("prompt").value;
 		//alert(breweryID);
 	
-		jQuery.get( "https://api.untappd.com/v4/user/checkins/mrose78?limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
+		//jQuery.get( "https://api.untappd.com/v4/user/checkins/mrose78?limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
 		//alert(breweryID);
 		
         //alert(JSON.stringify(response.response.checkins));
 
-        for (var key in response.response.checkins) {
-        if (json.hasOwnProperty(key)) {
-            alert(json[key].checkin_id);
-        }
-        }
-        } );	
+            //loop through json and match today's date with match-date
+            for (var i in response.response.checkins.items) {
+                beerCheck = response.response.checkins.items[i];
+                
+                //console.log(beerCheck.beer.beer_name);
+                $("#beerList").append('<b>' + beerCheck.beer.beer_name + '</b> (' + beerCheck.rating_score + '/5) - <i>' + beerCheck.brewery.brewery_name + '</i>');
+                $("#beerList").append("<br/>");
+            }        
+        
+        //function getArray(){
+        //    return $.getJSON('json/checkin.json');
+       // }
+
+        //getArray().done( function(json) {
+        //    console.log(json); // show the json data in console
+        //    var _len = json.length;
+        //    var beerCheck;
+
+
+            //loop through json and match today's date with match-date
+         //   for (var i in json.response.checkins.items) {
+        //        beerCheck = json.response.checkins.items[i];
+                
+         //       //console.log(beerCheck.beer.beer_name);
+        //        $("#beerList").append('<b>' + beerCheck.beer.beer_name + '</b> (' + beerCheck.rating_score + '/5) - <i>' + beerCheck.brewery.brewery_name + '</i>');
+        //        $("#beerList").append("<br/>");
+        //    }
+
+       // });
+
+
+        //} );	
 	}	
 		
 	</script>
     <head>
 <body>
 <h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages. </p>
-<input id="prompt" type="text" placeholder="Search for...">
 <button type="button" onClick="getBeer()">Go!</button>
+<div id="beerList"></div>
 </body>
 </html>
