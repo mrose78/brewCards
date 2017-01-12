@@ -11,11 +11,12 @@
 		
 		//var breweryID = document.getElementById("prompt").value;
 		//alert(breweryID);
+        var username = document.getElementById("username").value;
 	
-		jQuery.get( "https://api.untappd.com/v4/user/checkins/mrose78?limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
+		jQuery.get( "https://api.untappd.com/v4/user/checkins/" + username + "?limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
 		//alert(breweryID);
 		
-        alert(JSON.stringify(response.response.checkins.items));
+        //alert(JSON.stringify(response.response.checkins.items));
 
             //loop through json and match today's date with match-date
             for (var i in response.response.checkins.items) {
@@ -55,6 +56,7 @@
     <head>
 <body>
 <h1>Hello World</h1>
+<input id="username" type="text" class="form-control" placeholder="mrose78">
 <button type="button" onClick="getBeer()">Go!</button>
 <div id="beerList"></div>
 </body>
