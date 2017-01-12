@@ -1,0 +1,304 @@
+body {
+  font-family: "Helvetica-Neue", arial, sans-serif;
+  background-color: #ddd;
+}
+/* primary card fliperooo junks */
+
+.card {
+  width: 324px;
+  height: 412px;
+  /*box-shadow: 5px 8px 5px 3px #ccc;*/
+  
+  transform-style: preserve-3d;
+  transition: 0.3s;
+}
+
+.container:hover .card {
+  -webkit-transform: rotateY(180deg);
+}
+
+.face {
+  position: absolute;
+  backface-visibility: hidden;
+}
+/* end primary card fliperooo junks */
+/* front of card styles */
+
+.front {
+  width: 324px;
+  height: 412px;
+  border-radius: 2px;
+  background-color: rgb(255, 251, 100);
+  z-index: 10;
+}
+
+.container:hover .front {
+  z-index: 0;
+}
+
+.player-photo-front {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 288px;
+  height: 320px;
+  border-width: 3px;
+  border-style: solid;
+  color: rgb(155, 125, 0);
+  border-bottom-left-radius: 32px;
+  background-repeat: no-repeat;
+}
+
+.player-name-front {
+  position: absolute;
+  bottom: -85px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 200 !important;
+  color: rgb(155, 125, 0);
+}
+
+.card-a-tron {
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.team-logo {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  margin-top: 5px;
+  margin-left: 39%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/undTappdLogo.png');
+  z-index: 1;
+}
+
+.player-number {
+  margin-top: 287px;
+  margin-left: -2px;
+  width: 55px;
+  height: 55px;
+  font-size: 24px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgb(155, 125, 0);
+  background-image: url('../images/unTappdLogo.png');
+  
+  
+}
+
+.card-a-tron .back {
+  width: 284px;
+  height: 372px;
+  padding: 20px;
+  border-radius: 2px;
+  background-color: #f7f7f7;
+  transform: rotateY(180deg);
+}
+/* end front of card styles */
+/* back of card styles */
+
+.player-content-back {
+  height: 360px;
+  border-width: 3px;
+  border-style: solid;
+  border-top-left-radius: 43px;
+  color: rgb(155, 125, 0);
+}
+
+.player-identification-back {
+  height: 80px;
+  width: 100%;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background-color: rgb(198, 159, 0);
+}
+
+.player-photo-back {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-repeat: no-repeat;
+}
+
+.player-name-back {
+  position: relative;
+  top: -60px;
+  left: 50px;
+  width: 250px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(155, 125, 0);
+}
+
+.player-statistics {
+  height: 75px;
+  width: 250px;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(198, 159, 0);
+}
+
+.player-position-title {
+  width: 250px;
+  height: 45px;
+  display: inline-block;
+  float: left;
+}
+
+.player-position-title span {
+  color: rgb(155, 125, 0);
+  text-transform: none;
+  font-style: italic;
+}
+
+.player-bat-thorw-title {
+  width: 125px;
+  height: 45px;
+  display: inline-block;
+  float: left;
+}
+
+.player-bat-thorw-title span {
+  color: rgb(155, 125, 0);
+  text-transform: none;
+  font-style: italic;
+}
+
+.player-school-title {
+  width: 250px;
+  height: 45px;
+  display: inline-block;
+  float: left;
+}
+
+.player-school-title span {
+  color: rgb(155, 125, 0);
+  text-transform: none;
+  font-style: italic;
+}
+
+.honors-divider {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 11px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  color: rgb(198, 159, 0);
+}
+
+.honors-divider span {
+  letter-spacing: 8px;
+  font-weight: normal;
+}
+
+.honors-divider span:last-child {
+  margin-left: 5px;
+}
+
+.honors-divider span:first-child {
+  margin-right: 5px;
+}
+
+hr {
+  border-width: 1px;
+  border-left-style: solid;
+  border-top-style: none;
+  border-color: rgb(198, 159, 0);
+}
+
+.player-honors {
+  height: 75px;
+  width: 250px;
+  padding: 15px;
+  margin-top: -5px;
+  font-weight: 200;
+  font-size: 10px;
+  color: rgb(155, 125, 0);
+}
+
+.left-side-honors {
+  display: inline-block;
+  width: 125px;
+  float: left;
+}
+
+.right-side-honors {
+  display: inline-block;
+  width: 125px;
+  float: left;
+}
+
+.player-honors ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.player-honors li {
+  padding-top: 5px;
+}
+
+.video-link {
+  display: inline-block;
+  float: left;
+  width: 16px;
+  height: 15px;
+  margin-left: 63px;
+  margin-top: -15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.video-link a {
+  display: inline-block;
+  float: left;
+  width: 190px;
+  margin-left: -63px;
+  padding-left: 88px;
+  font-size: 10px;
+  color: rgb(2, 48, 116);
+  text-decoration: none;
+}
+
+.school-statistics {
+  margin-top: 6px;
+  width: 278px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.school-statistics h4 {
+  margin-top: 6px;
+}
+
+.gpa-score {
+  display: inline-block;
+  float: left;
+  width: 70px;
+  height: 25px;
+  color: #f7f7f7;
+  background-color: rgb(155, 125, 0);
+}
+
+.act-score {
+  display: inline-block;
+  float: right;
+  width: 60px;
+  height: 25px;
+  color: #f7f7f7;
+  background-color: rgb(155, 125, 0);
+}
+/* end back of card styles */
