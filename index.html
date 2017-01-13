@@ -17,6 +17,14 @@
 		jQuery.get( "https://api.untappd.com/v4/user/checkins/" + username + "?limit=" + maxNum + "&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
 		//alert(breweryID);
 		
+        //function getArray(){
+        //    return $.getJSON('json/checkin.json');
+        //}
+
+       // getArray().done( function(response) {
+            //console.log(response); // show the json data in console
+       //     var _len = response.length;
+
         //alert(JSON.stringify(response.response.checkins.items));
 
             //loop through json and match today's date with match-date
@@ -24,87 +32,107 @@
                 beerCheck = response.response.checkins.items[i];
                 
                 //console.log(beerCheck.beer.beer_name);
-                //$("#beerList").append('<b>' + beerCheck.beer.beer_name + '</b> (' + beerCheck.rating_score + '/5) - <i>' + beerCheck.brewery.brewery_name + '</i>');
-                //$("#beerList").append("<br/>");
-                $("#beerList").append('<!-- card start -->');
-                $("#beerList").append('<div class="container card-a-tron">');
-                $("#beerList").append('<div class="card">');
-                $("#beerList").append('<!-- card front begin -->');
-                $("#beerList").append('<div class="face front">');
-                $("#beerList").append('<div class="team-logo"></div>');
-                $("#beerList").append('<div class="player-photo-front" style="background-image: url(\'https://untappd.akamaized.net\/photo\/2017_01_07\/f1040ee32d43fb21dc96dc5800f85766_320x320.jpg\');">');
-                $("#beerList").append('<div class="player-number">');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<div class="player-name-front">');
-                $("#beerList").append('<h3>Grapefruit Solis Occasus IPA</h3>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<!-- card front end -->');
-                $("#beerList").append('<!-- card back begin -->');
-                $("#beerList").append('<div class="face back">');
-                $("#beerList").append('<div class="player-content-back">');
-                $("#beerList").append('<div class="player-identification-back">');
-                $("#beerList").append('<div class="player-photo-back" background-image: url(\'https://untappd.akamaized.net/site/brewery_logos/brewery-hessbrewing_2174.jpeg\');></div>');
-                $("#beerList").append('<div class="player-name-back">');
-                $("#beerList").append('Grapefruit Solis Occasus IPA');
-                $("#beerList").append('</div>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<div class="player-statistics">');
-                $("#beerList").append('<div class="player-position-title">');
-                $("#beerList").append('Style');
-                $("#beerList").append('<br>');
-                $("#beerList").append('<span class="player-position">');
-                $("#beerList").append('IPA - Imperial/Double');
-                $("#beerList").append('</span>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<div class="player-school-title">');
-                $("#beerList").append('Brewery');
-                $("#beerList").append('<br>');
-                $("#beerList").append('<span class="player-school">');
-                $("#beerList").append('Mike Hess Brewing');
-                $("#beerList").append('</span>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<div class="honors-divider">');
-                $("#beerList").append('<hr>');
-                $("#beerList").append('Sat, 07 Jan 2017 22:06:04');
-                $("#beerList").append('<hr>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<div class="player-honors">');
-                $("#beerList").append('<div class="left-side-honors">');
-                $("#beerList").append('<ul>');
-                $("#beerList").append('<li>San Diego</li>');
-                $("#beerList").append('<li>California</li>');
-                $("#beerList").append('<li>United States</li>');
-                $("#beerList").append('</ul>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<div class="right-side-honors">');
-                $("#beerList").append('<center><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-hessbrewing_2174.jpeg" height="75px"></center>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<div>');
-                $("#beerList").append('<center>');
-                $("#beerList").append('<a href="https://twitter.com/mikehessbrewing" target="_blank"><img src="images/twitter.png" width="25px" height="25px"></a>');
-                $("#beerList").append('<a href="http:\/\/www.facebook.com\/MikeHessBrewing" target="_blank"><img src="images/facebook.png" width="25px" height="25px"></a>');
-                $("#beerList").append('<a href="https://www.instagram.com/mikehessbrewing" target="_blank"><img src="images/instagram.png" width="25px" height="25px"></a>');
-                $("#beerList").append('<a href="http:\/\/mikehessbrewing.com" target="_blank"><img src="images/link.png" width="25px" height="25px"></a>');
-                $("#beerList").append('</center>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<div class="school-statistics">');
-                $("#beerList").append('<div class="gpa-score">');
-                $("#beerList").append('<h4>3.75 / 5</h4>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<div class="act-score">');
-                $("#beerList").append('<h4>8.3%</h4>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<!-- card back end -->');
-                $("#beerList").append('</div>');
-                $("#beerList").append('</div>');
-                $("#beerList").append('<!-- card end -->');
+                //innerHTML += '<b>' + beerCheck.beer.beer_name + '</b> (' + beerCheck.rating_score + '/5) - <i>' + beerCheck.brewery.brewery_name + '</i>');
+                //innerHTML += "<br/>");
+
+                var checkedIn = beerCheck.created_at;
+                checkedIn = checkedIn.substring(0, checkedIn.length -6);
+
+                var frontImage;
+                if(beerCheck.media.count == 0){
+                    frontImage = "images/noimage.png";
+                    //alert(beerCheck.media.count);
+                }else{
+                      for (var j in beerCheck.media.items) {
+                      photo = beerCheck.media.items[j];
+                      //alert(JSON.stringify(photo));
+                        frontImage = photo.photo.photo_img_md;
+                      }
+                }
+
+                var innerHTML = "";
+                
+                innerHTML += '<!-- card start -->';
+                innerHTML += '<div class="container card-a-tron">';
+                innerHTML += '<div class="card">';
+                innerHTML += '<!-- card front begin -->';
+                innerHTML += '<div class="face front">';
+                innerHTML += '<div class="team-logo"></div>';
+                innerHTML += '<div class="player-photo-front" style="background-image: url(' + frontImage + ');">';
+                innerHTML += '<div class="player-number">';
+                innerHTML += '</div>';
+                innerHTML += '<div class="player-name-front">';
+                innerHTML += '<h3>' + beerCheck.beer.beer_name + '</h3>';
+                innerHTML += '</div>';
+                innerHTML += '</div>';
+                innerHTML += '</div>';
+                innerHTML += '<!-- card front end -->';
+                innerHTML += '<!-- card back begin -->';
+                innerHTML += '<div class="face back">';
+                innerHTML += '<div class="player-content-back">';
+                innerHTML += '<div class="player-identification-back">';
+                innerHTML += '<div class="player-photo-back" background-image: url(\'' + beerCheck.brewery.brewery_label + '\');></div>';
+                innerHTML += '<div class="player-name-back">';
+                innerHTML += beerCheck.beer.beer_name;
+                innerHTML += '</div>';
+                innerHTML += '</div>';
+                innerHTML += '<div class="player-statistics">';
+                innerHTML += '<div class="player-position-title">';
+                innerHTML += 'Style';
+                innerHTML += '<br>';
+                innerHTML += '<span class="player-position">';
+                innerHTML += beerCheck.beer.beer_style;
+                innerHTML += '</span>';
+                innerHTML += '</div>';
+                innerHTML += '<div class="player-school-title">';
+                innerHTML += 'Brewery';
+                innerHTML += '<br>';
+                innerHTML += '<span class="player-school">';
+                innerHTML += beerCheck.brewery.brewery_name;
+                innerHTML += '</span>';
+                innerHTML += '</div>';
+                innerHTML += '</div>';
+                innerHTML += '<div class="honors-divider">';
+                innerHTML += '<hr>';
+                innerHTML += checkedIn;
+                innerHTML += '<hr>';
+                innerHTML += '</div>';
+                innerHTML += '<div class="player-honors">';
+                innerHTML += '<div class="left-side-honors">';
+                innerHTML += '<ul>';
+                innerHTML += '<li>' + beerCheck.brewery.location.brewery_city + '</li>';
+                innerHTML += '<li>' + beerCheck.brewery.location.brewery_state + '</li>';
+                innerHTML += '<li>' + beerCheck.brewery.country_name + '</li>';
+                innerHTML += '</ul>';
+                innerHTML += '</div>';
+                innerHTML += '<div class="right-side-honors">';
+                innerHTML += '<center><img src="' + beerCheck.brewery.brewery_label + '" height="75px"></center>';
+                innerHTML += '</div>';
+                innerHTML += '</div>';
+                innerHTML += '<div>';
+                innerHTML += '<center>';
+                innerHTML += '<a href="https://twitter.com/' + beerCheck.brewery.contact.twitter + '" target="_blank"><img src="images/twitter.png" width="25px" height="25px"></a>&nbsp;&nbsp;&nbsp;';
+                innerHTML += '<a href="' + beerCheck.brewery.contact.facebook + '" target="_blank"><img src="images/facebook.png" width="25px" height="25px"></a>&nbsp;&nbsp;&nbsp;';
+                innerHTML += '<a href="https://www.instagram.com/' + beerCheck.brewery.contact.instagram + '" target="_blank"><img src="images/instagram.png" width="25px" height="25px"></a>&nbsp;&nbsp;&nbsp;';
+                innerHTML += '<a href="' + beerCheck.brewery.contact.url +'" target="_blank"><img src="images/link.png" width="25px" height="25px"></a>';
+                innerHTML += '</center>';
+                innerHTML += '</div>';
+                innerHTML += '<div class="school-statistics">';
+                innerHTML += '<div class="gpa-score">';
+                innerHTML += '<h4>3.75 / 5</h4>';
+                innerHTML += '</div>';
+                innerHTML += '<div class="act-score">';
+                innerHTML += '<h4>8.3%</h4>';
+                innerHTML += '</div>';
+                innerHTML += '</div>';
+                innerHTML += '</div>';
+                innerHTML += '</div>';
+                innerHTML += '<!-- card back end -->';
+                innerHTML += '</div>';
+                innerHTML += '</div>';
+                innerHTML += '<!-- card end -->';
+
+                $("#beerList").append(innerHTML);
             }        
         
         //function getArray(){
@@ -122,8 +150,8 @@
         //        beerCheck = json.response.checkins.items[i];
                 
          //       //console.log(beerCheck.beer.beer_name);
-        //        $("#beerList").append('<b>' + beerCheck.beer.beer_name + '</b> (' + beerCheck.rating_score + '/5) - <i>' + beerCheck.brewery.brewery_name + '</i>');
-        //        $("#beerList").append("<br/>");
+        //        innerHTML += '<b>' + beerCheck.beer.beer_name + '</b> (' + beerCheck.rating_score + '/5) - <i>' + beerCheck.brewery.brewery_name + '</i>');
+        //        innerHTML += "<br/>");
         //    }
 
        // });

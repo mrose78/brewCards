@@ -1,0 +1,81 @@
+<!-- card start -->
+    <div class="container card-a-tron">
+        <div class="card">
+            <!-- card front begin -->
+            <div class="face front">
+                <div class="team-logo"></div>
+                <div class="player-photo-front" style="background-image: url('https:\/\/untappd.akamaized.net\/photo\/2017_01_07\/f1040ee32d43fb21dc96dc5800f85766_320x320.jpg');">
+                    <div class="player-number">
+                        
+                    </div>
+                    <div class="player-name-front">
+                        <h3>Grapefruit Solis Occasus IPA</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- card front end -->
+            <!-- card back begin -->
+            <div class="face back">
+                <div class="player-content-back">
+                    <div class="player-identification-back">
+                        <div class="player-photo-back" background-image: url('https://untappd.akamaized.net/site/brewery_logos/brewery-hessbrewing_2174.jpeg');></div>
+                        <div class="player-name-back">
+                            Grapefruit Solis Occasus IPA
+                        </div>
+                    </div>
+                    <div class="player-statistics">
+                        <div class="player-position-title">
+                            Style
+                            <br>
+                            <span class="player-position">
+                    			IPA - Imperial/Double
+                    		</span>
+                        </div>
+
+                        <div class="player-school-title">
+                            Brewery
+                            <br>
+                            <span class="player-school">
+                    			Mike Hess Brewing
+                    		</span>
+                        </div>
+                    </div>
+                    <div class="honors-divider">
+                        <hr>
+                        Sat, 07 Jan 2017 22:06:04
+                        <hr>
+                    </div>
+                    <div class="player-honors">
+                    	<div class="left-side-honors">
+                    		<ul>
+                    			<li>San Diego</li>
+                    			<li>California</li>
+                    			<li>United States</li>
+                    		</ul>
+                    	</div>
+                    	<div class="right-side-honors">
+                            <center><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-hessbrewing_2174.jpeg" height="75px"></center>
+                    	</div>
+                    </div>
+                    <div>
+                        <center>
+                        <a href="https://twitter.com/mikehessbrewing" target="_blank"><img src="images/twitter.png" width="25px" height="25px"></a>
+                        <a href="http:\/\/www.facebook.com\/MikeHessBrewing" target="_blank"><img src="images/facebook.png" width="25px" height="25px"></a>
+                        <a href="https://www.instagram.com/mikehessbrewing" target="_blank"><img src="images/instagram.png" width="25px" height="25px"></a>
+                        <a href="http:\/\/mikehessbrewing.com" target="_blank"><img src="images/link.png" width="25px" height="25px"></a>
+                        </center>
+                    </div>
+                    <div class="school-statistics">
+                    	<div class="gpa-score">
+                    		<h4>3.75 / 5</h4>
+                    	</div>
+                    	<div class="act-score">
+                    		<h4>8.3%</h4>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+            <!-- card back end -->
+        </div>
+    </div>
+    <!-- card end -->

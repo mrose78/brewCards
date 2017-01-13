@@ -1,0 +1,45 @@
+<!-- card start -->
+<div class="container card-a-tron"></div>
+<div class="card"></div>
+<!-- card front begin -->
+<div class="face front"></div>
+<div class="team-logo"></div>
+<div class="player-photo-front" style="background-image: url('https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png');"></div>
+<div class="player-number"></div>
+<div class="player-name-front"></div>
+<h3>Grapefruit Solis Occasus IPA</h3>
+<!-- card front end -->
+<!-- card back begin -->
+<div class="face back"></div>
+<div class="player-content-back"></div>
+<div class="player-identification-back"></div>
+<div class="player-photo-back" background-image:="" url(
+    'https:="" untappd.akamaized.net="" site="" brewery_logos="" brewery-hessbrewing_2174.jpeg');=""></div>
+<div class="player-name-back"></div>Grapefruit Solis Occasus IPA
+<div class="player-statistics"></div>
+<div class="player-position-title"></div>Style<br><span class="player-position"></span>IPA - Imperial/Double
+<div class="player-school-title"></div>Brewery<br><span class="player-school"></span>Mike Hess Brewing
+<div class="honors-divider"></div>
+<hr>Sat, 07 Jan 2017 22:06:04
+<hr>
+<div class="player-honors"></div>
+<div class="left-side-honors"></div>
+<ul></ul>
+<li>San Diego</li>
+<li>California</li>
+<li>United States</li>
+<div class="right-side-honors"></div>
+<center><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-hessbrewing_2174.jpeg" height="75px"></center>
+<div></div>
+<center></center>
+<a href="https://twitter.com/mikehessbrewing" target="_blank"><img src="images/twitter.png" width="25px" height="25px"></a>
+<a href="http://www.facebook.com/MikeHessBrewing" target="_blank"><img src="images/facebook.png" width="25px" height="25px"></a>
+<a href="https://www.instagram.com/mikehessbrewing" target="_blank"><img src="images/instagram.png" width="25px" height="25px"></a>
+<a href="http://mikehessbrewing.com" target="_blank"><img src="images/link.png" width="25px" height="25px"></a>
+<div class="school-statistics"></div>
+<div class="gpa-score"></div>
+<h4>3.75 / 5</h4>
+<div class="act-score"></div>
+<h4>8.3%</h4>
+<!-- card back end -->
+<!-- card end -->
