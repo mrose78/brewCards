@@ -15,14 +15,14 @@
         }
 
 	
-		//jQuery.get( "https://api.untappd.com/v4/beer/info/" + getRandomIntInclusive(1,50000) + "?client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
+		jQuery.get( "https://api.untappd.com/v4/beer/info/" + getRandomIntInclusive(1,50000) + "?client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
 		//alert(breweryID);
 
         function getArray(){
             return $.getJSON('json/beerInfo.json');
         }
 
-        getArray().done( function(response) {
+        //getArray().done( function(response) {
             document.getElementById("beer_name").innerHTML = response.response.beer.beer_name;
             document.getElementById("beer_style").innerHTML = "Style: " + response.response.beer.beer_style;
             document.getElementById("beer_abv").innerHTML = "ABV: " + response.response.beer.beer_abv + "%";
@@ -49,7 +49,7 @@
 
     <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-4">
 			<img id="beer_photo" alt="Beer Image" src="https://untappd.akamaized.net//site//assets//images//temp//badge-beer-default.png">
 			<div id="beer_name">
 				XXX
