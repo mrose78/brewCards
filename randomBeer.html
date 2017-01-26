@@ -13,38 +13,35 @@
             max = Math.floor(max);
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
-	//function getBeer() {
-		
-		//var breweryID = document.getElementById("prompt").value;
-		//alert(breweryID);
-        //var username = document.getElementById("username").value;
-        //var maxNum = document.getElementById("maxNum").value;
+
 	
-		jQuery.get( "https://api.untappd.com/v4/beer/info/" + getRandomIntInclusive(1,50000) + "?client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
+		//jQuery.get( "https://api.untappd.com/v4/beer/info/" + getRandomIntInclusive(1,50000) + "?client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
 		//alert(breweryID);
 
-        //function getArray(){
-        //    return $.getJSON('json/beerInfo.json');
-        //}
+        function getArray(){
+            return $.getJSON('json/beerInfo.json');
+        }
 
-        //getArray().done( function(response) {
-            //console.log(response); // show the json data in console
-            var _len = response.length;
+        getArray().done( function(response) {
+            document.getElementById("beer_name").innerHTML = response.response.beer.beer_name;
+            document.getElementById("beer_style").innerHTML = "Style: " + response.response.beer.beer_style;
+            document.getElementById("beer_abv").innerHTML = "ABV: " + response.response.beer.beer_abv + "%";
+            document.getElementById("beer_ibu").innerHTML = "IBU: " + response.response.beer.beer_ibu;
+            //alert(response.response.beer.media.count);
+            if(response.response.beer.media.count != 0){
+                for (var i in response.response.beer.media.items) {
+                    beerPhoto = response.response.beer.media.items[i];
+                    document.getElementById("beer_photo").src = beerPhoto.photo.photo_img_md;
+                }
+            }else{
 
-            //loop through json and match today's date with match-date
-            for (var i in response.response) {
-                beerCheck = response.response[i];
-                document.getElementById("beer_name").innerHTML = beerCheck.beer_name;
-                document.getElementById("beer_style").innerHTML = "Style: " + beerCheck.beer_style;
-                document.getElementById("beer_abv").innerHTML = "ABV: " + beerCheck.beer_abv + "%";
-                document.getElementById("beer_ibu").innerHTML = "IBU: " + beerCheck.beer_ibu;
-                document.getElementById("ranking").innerHTML = beerCheck.rating_score + " avg. " + beerCheck.rating_count + " ratings";
+            }
 
-            }        
-        
 
-        } );	
-	//}	
+            document.getElementById("brewery_logo").src = beerPhoto.brewery.brewery_label;
+            document.getElementById("ranking").innerHTML = response.response.beer.rating_score + " avg. " + response.response.beer.rating_count + " ratings";
+
+        } );		
 		
 	</script>
     <head>
@@ -53,7 +50,7 @@
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<img alt="Bootstrap Image Preview" src="https:\/\/untappd.akamaized.net\/photo\/2017_01_24\/c17fc5d48e21e34574aad24d62c395a3_320x320.jpg">
+			<img id="beer_photo" alt="Beer Image" src="https://untappd.akamaized.net//site//assets//images//temp//badge-beer-default.png">
 			<div id="beer_name">
 				XXX
 			</div>
@@ -71,10 +68,12 @@
 			<div class="panel panel-default">
 
 				<div class="panel-body">
-					<img alt="Bootstrap Image Preview" src="https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-1142_f241d.jpeg">
+					<img id="brewery_logo" alt="Brewery Logo" src="">
 				</div>
 
-			</div><img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
+			</div>
+            
+            <!--<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">-->
 			<div id="ranking">
 				xxxxxx
 			</div>
