@@ -27,13 +27,9 @@
         //    return $.getJSON('json/beerInfo.json');
         //}
 
-        getArray().done( function(response) {
+        //getArray().done( function(response) {
             //console.log(response); // show the json data in console
             var _len = response.length;
-
-        //alert(JSON.stringify(response.response.checkins.items));
-
-        //alert(JSON.stringify(response.response));
 
             //loop through json and match today's date with match-date
             for (var i in response.response) {
