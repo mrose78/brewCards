@@ -14,16 +14,16 @@
         var username = document.getElementById("username").value;
         var maxNum = document.getElementById("maxNum").value;
 	
-		jQuery.get( "https://api.untappd.com/v4/user/checkins/" + username + "?limit=" + maxNum + "&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
+		//jQuery.get( "https://api.untappd.com/v4/user/checkins/" + username + "?limit=" + maxNum + "&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
 		//alert(breweryID);
 		
-        //function getArray(){
-        //    return $.getJSON('json/checkin.json');
-        //}
+        function getArray(){
+            return $.getJSON('json/checkin.json');
+        }
 
-       // getArray().done( function(response) {
+        getArray().done( function(response) {
             //console.log(response); // show the json data in console
-       //     var _len = response.length;
+            var _len = response.length;
 
         //alert(JSON.stringify(response.response.checkins.items));
 
@@ -119,10 +119,10 @@
                 innerHTML += '</div>';
                 innerHTML += '<div class="school-statistics">';
                 innerHTML += '<div class="gpa-score">';
-                innerHTML += '<h4>3.75 / 5</h4>';
+                innerHTML += '<h4>' + beerCheck.rating_score + ' / 5</h4>';
                 innerHTML += '</div>';
                 innerHTML += '<div class="act-score">';
-                innerHTML += '<h4>8.3%</h4>';
+                innerHTML += '<h4>' + beerCheck.beer.beer_abv + '%</h4>';
                 innerHTML += '</div>';
                 innerHTML += '</div>';
                 innerHTML += '</div>';

@@ -1,0 +1,13 @@
+body {
+  font-family: "Helvetica-Neue", arial, sans-serif;
+  background-color: rgb(246,238,227);
+}
+
+#beer_abv {
+  float: right ;
+  width: 50% ;
+}
+#beer_ibu {
+  float: right;
+  width: 50%;
+}
