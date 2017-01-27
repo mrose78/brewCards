@@ -7,6 +7,8 @@
 
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/styleRandom.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/example.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
         <script type="text/javascript">
 
         function getRandomIntInclusive(min, max) {
@@ -29,17 +31,17 @@
             document.getElementById("beer_abv").innerHTML = "ABV: " + response.response.beer.beer_abv + "%";
             document.getElementById("beer_ibu").innerHTML = "IBU: " + response.response.beer.beer_ibu;
             //alert(response.response.beer.media.count);
-            if(response.response.beer.media.count != 0){
-                for (var i in response.response.beer.media.items) {
-                    beerPhoto = response.response.beer.media.items[i];
-                    document.getElementById("beer_photo").src = beerPhoto.photo.photo_img_md;
-                }
-            }else{
+            //if(response.response.beer.media.count != 0){
+            //    for (var i in response.response.beer.media.items) {
+            //        beerPhoto = response.response.beer.media.items[i];
+            //        document.getElementById("beer_photo").src = beerPhoto.photo.photo_img_md;
+           //     }
+            //}else{
 
-            }
+            //}
 
 
-            document.getElementById("brewery_logo").src = beerPhoto.brewery.brewery_label;
+            document.getElementById("brewery_logo").src = response.response.beer.brewery.brewery_label;
             document.getElementById("ranking").innerHTML = response.response.beer.rating_score + " avg. " + response.response.beer.rating_count + " ratings";
 
         } );		
@@ -51,8 +53,20 @@
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-4">
-			<img id="beer_photo" alt="Beer Image" src="https://untappd.akamaized.net//site//assets//images//temp//badge-beer-default.png">
-			<div id="beer_name">
+            <!--<br/>
+                <center>
+                    <img id="beer_photo" alt="Beer Image" src="https://untappd.akamaized.net//site//assets//images//temp//badge-beer-default.png" width="320px" height="320px" style="box-shadow: 10px 10px 5px #888888">
+                </center>-->
+ <div class="container">
+    <div id="slides">
+      <img src="https:\/\/untappd.akamaized.net\/photo\/2017_01_24\/9112c6d89a56ceb5140a23c6a2de824a_320x320.jpg">
+      <img src="https:\/\/untappd.akamaized.net\/photo\/2017_01_24\/a7a8a0bc65ff895a5ff9aaf2a9a50910_320x320.jpeg">
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+    </div>
+  </div>
+            <br/>
+            <div id="beer_name">
 				XXX
 			</div>
 			<div id="beer_style">
@@ -75,9 +89,11 @@
 			</div>
             
             <!--<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">-->
-			<div id="ranking">
+            <center>
+            <div id="ranking">
 				xxxxxx
 			</div>
+            </center>
 		</div>
 	</div>
 </div>
@@ -85,5 +101,19 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 320,
+        height: 320,
+        navigation: false
+      });
+    });
+  </script>
   </body>
 </html>
