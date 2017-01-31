@@ -50,19 +50,20 @@
         var username = document.getElementById("username").value;
         var offSet = document.getElementById("offSet").value;
 	
-		jQuery.get( "https://api.untappd.com/v4/user/checkins/" + username + "?offset" + offSet + "?limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
+		//jQuery.get( "https://api.untappd.com/v4/user/checkins/" + username + "?offset" + offSet + "?limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
 		//alert(breweryID);
 		
         function getArray(){
             return $.getJSON('json/checkin.json');
         }
 
-        //getArray().done( function(response) {
+        getArray().done( function(response) {
             //console.log(response); // show the json data in console
             var _len = response.length;
 
         //alert(JSON.stringify(response.response.checkins.items));
 
+            var totalEntries=0;
             //loop through json and match today's date with match-date
             for (var i in response.response.checkins.items) {
                 beerCheck = response.response.checkins.items[i];
@@ -120,13 +121,13 @@
 
                 innerHTML += '<br/>';
 
-   
+                totalEntries = totalEntries + 1;
 
                 $("#beerList").append(innerHTML);
 
-                alert(innerHTML);
+                //alert(innerHTML);
             }        
-
+            alert(totalEntries);
         } );	
 	}	
 		
