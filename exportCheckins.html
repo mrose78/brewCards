@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Get Untappd Checkins</title>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link href="css/style.css" rel="stylesheet" />
+
+        <script type="text/javascript">
+
+	function getBeer() {
+
+        var headerHTML = '';
+            headerHTML += 'checkin_id' + '|';
+            headerHTML += 'bid' + '|';
+            headerHTML += 'beer_name' + '|';
+            headerHTML += 'checkedIn_date' + '|';
+            headerHTML += 'rating_score' + '|';
+            headerHTML += 'beer_abv' + '|';
+            headerHTML += 'beer_ibu' + '|';
+            headerHTML += 'frontImage' + '|';
+            headerHTML += 'beer_style' + '|';
+            headerHTML += 'brewery_name' + '|';
+            headerHTML += 'brewery_label' + '|';
+            headerHTML += 'brewery_city' + '|';
+            headerHTML += 'brewery_state' + '|';
+            headerHTML += 'brewery_lat' + '|';
+            headerHTML += 'brewery_lng' + '|';
+            headerHTML += 'country_name' + '|';
+            headerHTML += 'brewery_label' + '|';
+            headerHTML += 'twitter' + '|';
+            headerHTML += 'facebook' + '|';
+            headerHTML += 'instagram' + '|';
+            headerHTML += 'url' + '|';
+            headerHTML += 'venue_name' + '|';
+            headerHTML += 'venue_address' + '|';
+            headerHTML += 'venue_city' + '|';
+            headerHTML += 'venue_state' + '|';
+            headerHTML += 'venue_country' + '|';
+            headerHTML += 'venue_lat' + '|';
+            headerHTML += 'venue_lng' + '|';
+            headerHTML += 'user_avatar';
+            headerHTML += '<br/>';
+            
+            if (document.getElementById('includeHeader').checked) {
+                $("#beerList").append(headerHTML);
+            }
+		
+		//var breweryID = document.getElementById("prompt").value;
+		//alert(breweryID);
+        var username = document.getElementById("username").value;
+        var offSet = document.getElementById("offSet").value;
+	
+		jQuery.get( "https://api.untappd.com/v4/user/checkins/" + username + "?offset" + offSet + "?limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
+		//alert(breweryID);
+		
+        function getArray(){
+            return $.getJSON('json/checkin.json');
+        }
+
+        //getArray().done( function(response) {
+            //console.log(response); // show the json data in console
+            var _len = response.length;
+
+        //alert(JSON.stringify(response.response.checkins.items));
+
+            //loop through json and match today's date with match-date
+            for (var i in response.response.checkins.items) {
+                beerCheck = response.response.checkins.items[i];
+                
+                //console.log(beerCheck.beer.beer_name);
+                //innerHTML += '<b>' + beerCheck.beer.beer_name + '</b> (' + beerCheck.rating_score + '/5) - <i>' + beerCheck.brewery.brewery_name + '</i>');
+                //innerHTML += "<br/>");
+
+                var checkedIn = beerCheck.created_at;
+                checkedIn = checkedIn.substring(0, checkedIn.length -6);
+
+                var frontImage;
+                if(beerCheck.media.count == 0){
+                    frontImage = "images/noimage.png";
+                    //alert(beerCheck.media.count);
+                }else{
+                      for (var j in beerCheck.media.items) {
+                      photo = beerCheck.media.items[j];
+                      //alert(JSON.stringify(photo));
+                        frontImage = photo.photo.photo_img_md;
+                      }
+                }
+
+                var innerHTML = "";
+
+                innerHTML += beerCheck.checkin_id + '|';
+                innerHTML += beerCheck.beer.bid + '|';
+                innerHTML += beerCheck.beer.beer_name + '|';
+                innerHTML += checkedIn + '|';
+                innerHTML += beerCheck.rating_score + '|';
+                innerHTML += beerCheck.beer.beer_abv;
+                innerHTML += beerCheck.beer.beer_ibu;
+                innerHTML += frontImage + '|';
+                innerHTML += beerCheck.beer.beer_style + '|';
+                innerHTML += beerCheck.brewery.brewery_name + '|';
+                innerHTML += beerCheck.brewery.brewery_label + '|';
+                innerHTML += beerCheck.brewery.location.brewery_city + '|';
+                innerHTML += beerCheck.brewery.location.brewery_state + '|';
+                innerHTML += beerCheck.brewery.location.lat + '|';
+                innerHTML += beerCheck.brewery.location.lng + '|';
+                innerHTML += beerCheck.brewery.country_name + '|';
+                innerHTML += beerCheck.brewery.brewery_label + '|';
+                innerHTML += beerCheck.brewery.contact.twitter + '|';
+                innerHTML += beerCheck.brewery.contact.facebook + '|';
+                innerHTML += beerCheck.brewery.contact.instagram + '|';
+                innerHTML += beerCheck.brewery.contact.url + '|';
+                innerHTML += beerCheck.venue.venue_name + '|';
+                innerHTML += beerCheck.venue.location.venue_address + '|';
+                innerHTML += beerCheck.venue.location.venue_city + '|';
+                innerHTML += beerCheck.venue.location.venue_state + '|';
+                innerHTML += beerCheck.venue.location.venue_country + '|';
+                innerHTML += beerCheck.venue.location.lat + '|';
+                innerHTML += beerCheck.venue.location.lng + '|';
+                innerHTML += beerCheck.user.user_avatar;
+
+                innerHTML += '<br/>';
+
+   
+
+                $("#beerList").append(innerHTML);
+            }        
+
+        } );	
+	}	
+		
+	</script>
+    <head>
+<body>
+<h1>Untappd Checkins</h1>
+<input id="username" type="text" placeholder="Enter a username..." value="mrose78">
+<select id="offSet">
+  <option value="0">0</option>
+  <option value="51">51</option>
+  <option value="101">101</option>
+  <option value="151">151</option>
+  <option value="201">201</option>
+  <option value="301">301</option>
+  <option value="301">301</option>
+  <option value="351">351</option>
+  <option value="401">401</option>
+  <option value="451" >451</option>
+  <option value="501">501</option>
+  <option value="551">551</option>
+  <option value="601">601</option>
+  <option value="651">651</option>
+  <option value="701">701</option>
+  <option value="751">751</option>
+  <option value="801">801</option>
+  <option value="851">851</option>
+  <option value="901">901</option>
+  <option value="951">951</option>
+  <option value="1001">1001</option>
+ 
+</select>
+<input id="includeHeader" name="includeHeader" type="checkbox" />Include header?</input>
+<button type="button" onClick="getBeer()">Go!</button>
+<div id="beerList"></div>
+</body>
+</html>
