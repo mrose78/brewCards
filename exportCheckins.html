@@ -49,19 +49,59 @@
 		//alert(breweryID);
         var username = document.getElementById("username").value;
         var offSet = document.getElementById("offSet").value;
-	
-		jQuery.get( "https://api.untappd.com/v4/user/checkins/" + username + "?offset=" + offSet + "&limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response ) { 
-		alert("https://api.untappd.com/v4/user/checkins/" + username + "?offset=" + offSet + "&limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369");
+        var innerHTML = "";
+        
+        function getArrayBeerInfo(){
+            return $.getJSON('json/beers2017.json');
+        }
+
+        var urlTest = "";
+	//loop through each beer and then get checkin information
+    //jQuery.get( "https://api.untappd.com/v4/user/beers/" + username + "?offset=" + offSet + "&limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( beerResponse ) { 
+		getArrayBeerInfo().done( function(beerResponse) {
+
+         for (var j in beerResponse.response.beers.items) {
+                beerCheck = beerResponse.response.beers.items[j];
+                
+                innerHTML += beerCheck.recent_checkin_id + '|';
+                innerHTML += beerCheck.beer.bid + '|';
+                innerHTML += beerCheck.beer.beer_name + '|';
+                innerHTML += 'date here' + '|';
+                innerHTML += beerCheck.rating_score + '|';
+                innerHTML += beerCheck.beer.beer_abv;
+                innerHTML += beerCheck.beer.beer_ibu;
+                innerHTML += 'image here' + '|';
+                innerHTML += beerCheck.beer.beer_style + '|';
+                innerHTML += beerCheck.brewery.brewery_name + '|';
+                innerHTML += beerCheck.brewery.brewery_label + '|';
+                innerHTML += beerCheck.brewery.location.brewery_city + '|';
+                innerHTML += beerCheck.brewery.location.brewery_state + '|';
+                innerHTML += beerCheck.brewery.location.lat + '|';
+                innerHTML += beerCheck.brewery.location.lng + '|';
+                innerHTML += beerCheck.brewery.country_name + '|';
+                innerHTML += beerCheck.brewery.brewery_label + '|';
+                innerHTML += beerCheck.brewery.contact.twitter + '|';
+                innerHTML += beerCheck.brewery.contact.facebook + '|';
+                innerHTML += beerCheck.brewery.contact.instagram + '|';
+                innerHTML += beerCheck.brewery.contact.url + '|';
+
+                var minCheckinID = beerCheck.recent_checkin_id - 1;
+                //urlTest = beerCheck.recent_checkin_id + ":" + minCheckinID;
+                //urlTest = "https://api.untappd.com/v4/user/checkins/" + username + "?max_id=" + beerCheck.recent_checkin_id + "&min_id=" + minCheckinID + "&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369";
+                //urlTest += "<br/>";
+                $("#beerList").append(urlTest);
+        jQuery.get( "https://api.untappd.com/v4/user/checkins/" + username + "?max_id=" + beerCheck.recent_checkin_id + "&min_id=" + minCheckinID + "&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( response) { 
+		//alert("https://api.untappd.com/v4/user/checkins/" + username + "?offset=" + offSet + "&limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369");
 		
         function getArray(){
             return $.getJSON('json/checkin.json');
         }
 
-        //getArray().done( function(response) {
+        getArray().done( function(response) {
             //console.log(response); // show the json data in console
             var _len = response.length;
 
-        //alert(JSON.stringify(response.response.checkins.items));
+        //alert(JSON.stringify(response.response.beers.items));
 
             var totalEntries=0;
             //loop through json and match today's date with match-date
@@ -87,29 +127,6 @@
                       }
                 }
 
-                var innerHTML = "";
-
-                innerHTML += beerCheck.checkin_id + '|';
-                innerHTML += beerCheck.beer.bid + '|';
-                innerHTML += beerCheck.beer.beer_name + '|';
-                innerHTML += checkedIn + '|';
-                innerHTML += beerCheck.rating_score + '|';
-                innerHTML += beerCheck.beer.beer_abv;
-                innerHTML += beerCheck.beer.beer_ibu;
-                innerHTML += frontImage + '|';
-                innerHTML += beerCheck.beer.beer_style + '|';
-                innerHTML += beerCheck.brewery.brewery_name + '|';
-                innerHTML += beerCheck.brewery.brewery_label + '|';
-                innerHTML += beerCheck.brewery.location.brewery_city + '|';
-                innerHTML += beerCheck.brewery.location.brewery_state + '|';
-                innerHTML += beerCheck.brewery.location.lat + '|';
-                innerHTML += beerCheck.brewery.location.lng + '|';
-                innerHTML += beerCheck.brewery.country_name + '|';
-                innerHTML += beerCheck.brewery.brewery_label + '|';
-                innerHTML += beerCheck.brewery.contact.twitter + '|';
-                innerHTML += beerCheck.brewery.contact.facebook + '|';
-                innerHTML += beerCheck.brewery.contact.instagram + '|';
-                innerHTML += beerCheck.brewery.contact.url + '|';
                 innerHTML += beerCheck.venue.venue_name + '|';
                 innerHTML += beerCheck.venue.location.venue_address + '|';
                 innerHTML += beerCheck.venue.location.venue_city + '|';
@@ -127,8 +144,11 @@
 
                 //alert(innerHTML);
             }        
-            alert(totalEntries);
-        } );	
+            //alert(totalEntries);
+        } );
+        	
+         }     
+    } );	
 	}	
 		
 	</script>

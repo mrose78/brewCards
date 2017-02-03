@@ -1,0 +1,2281 @@
+{
+    "meta": {
+        "code": 200,
+        "response_time": {
+            "time": 0.599,
+            "measure": "seconds"
+        },
+        "init_time": {
+            "time": 0.014,
+            "measure": "seconds"
+        }
+    },
+    "notifications": [],
+    "response": {
+        "total_count": 719,
+        "is_search": false,
+        "sort": false,
+        "type_id": false,
+        "country_id": false,
+        "brewery_id": false,
+        "beers": {
+            "count": 50,
+            "items": [
+                {
+                    "first_checkin_id": 412010026,
+                    "first_created_at": "Mon, 30 Jan 2017 19:14:10 -0700",
+                    "recent_checkin_id": 412010026,
+                    "recent_created_at": "Mon, 30 Jan 2017 19:14:10 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.5,
+                    "first_had": "Mon, 30 Jan 2017 19:14:10 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1741133,
+                        "beer_name": "Tropical Torpedo",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1741133_0a236_sm.jpeg",
+                        "beer_abv": 6.7,
+                        "beer_ibu": 55,
+                        "beer_slug": "sierra-nevada-brewing-co-tropical-torpedo",
+                        "beer_style": "IPA - American",
+                        "beer_description": "We used our one-of-a-kind Hop Torpedo to deliver an intense rush of hop flavor and the lush aromas of mango, papaya, and passionfruit with every sip.  Enjoy our tropical twist on the American IPA. This beer is hopped with Amarillo, Citra, Comet, El Dorado, and Mosaic",
+                        "created_at": "Tue, 20 Sep 2016 00:19:43 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.727,
+                        "rating_count": 13344
+                    },
+                    "brewery": {
+                        "brewery_id": 1142,
+                        "brewery_name": "Sierra Nevada Brewing Co.",
+                        "brewery_slug": "sierra-nevada-brewing-co",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-1142_f241d.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "SierraNevada",
+                            "facebook": "http:\/\/www.facebook.com\/sierranevadabeer",
+                            "instagram": "sierranevada",
+                            "url": "http:\/\/www.sierranevada.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chico",
+                            "brewery_state": "CA",
+                            "lat": 39.7242,
+                            "lng": -121.815
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 410222767,
+                    "first_created_at": "Thu, 26 Jan 2017 19:37:01 -0700",
+                    "recent_checkin_id": 410222767,
+                    "recent_created_at": "Thu, 26 Jan 2017 19:37:01 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.75,
+                    "first_had": "Thu, 26 Jan 2017 19:37:01 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 613612,
+                        "beer_name": "Lolli",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-613612_d01e5_sm.jpeg",
+                        "beer_abv": 8.2,
+                        "beer_ibu": 27,
+                        "beer_slug": "the-beer-research-institute-lolli",
+                        "beer_style": "Blonde Ale - Belgian Blonde \/ Golden",
+                        "beer_description": "This is our house Belgian. This 7.7% Belgian Blonde is dry, highly carbonated and very easy to drink. Tons of banana and bubble gum in the aroma. This beer makes people fall down!",
+                        "created_at": "Tue, 11 Mar 2014 00:03:40 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.753,
+                        "rating_count": 1122
+                    },
+                    "brewery": {
+                        "brewery_id": 86508,
+                        "brewery_name": "The Beer Research Institute",
+                        "brewery_slug": "the-beer-research-institute",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-beerresearchinstitute_86508.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "BRIBrewpub",
+                            "facebook": "http:\/\/www.facebook.com\/thebeerresearchinstitute",
+                            "instagram": "thebeerresearchinstitute",
+                            "url": "http:\/\/www.thebeerresearchinstitute.com"
+                        },
+                        "location": {
+                            "brewery_city": "Mesa",
+                            "brewery_state": "AZ",
+                            "lat": 33.3846,
+                            "lng": -111.803
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 409713756,
+                    "first_created_at": "Tue, 24 Jan 2017 19:27:43 -0700",
+                    "recent_checkin_id": 409713756,
+                    "recent_created_at": "Tue, 24 Jan 2017 19:27:43 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.5,
+                    "first_had": "Tue, 24 Jan 2017 19:27:43 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1695697,
+                        "beer_name": "Sidecar Orange Pale Ale",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1695697_ccc11_sm.jpeg",
+                        "beer_abv": 5.3,
+                        "beer_ibu": 35,
+                        "beer_slug": "sierra-nevada-brewing-co-sidecar-orange-pale-ale",
+                        "beer_style": "Pale Ale - American",
+                        "beer_description": "This beer has a pop of bright orange flavor that emphasizes the natural citrus-heavy character of Cascade, Equinox and Mandarina hops. Brewed with orange peel added directly to the kettle, and all the classic hop flavor you'd come to expect from our all-new take on the hop-forward fruit beer.",
+                        "created_at": "Fri, 19 Aug 2016 09:42:47 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.555,
+                        "rating_count": 18561
+                    },
+                    "brewery": {
+                        "brewery_id": 1142,
+                        "brewery_name": "Sierra Nevada Brewing Co.",
+                        "brewery_slug": "sierra-nevada-brewing-co",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-1142_f241d.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "SierraNevada",
+                            "facebook": "http:\/\/www.facebook.com\/sierranevadabeer",
+                            "instagram": "sierranevada",
+                            "url": "http:\/\/www.sierranevada.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chico",
+                            "brewery_state": "CA",
+                            "lat": 39.7242,
+                            "lng": -121.815
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 409502854,
+                    "first_created_at": "Mon, 23 Jan 2017 18:28:16 -0700",
+                    "recent_checkin_id": 409502854,
+                    "recent_created_at": "Mon, 23 Jan 2017 18:28:16 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.5,
+                    "first_had": "Mon, 23 Jan 2017 18:28:16 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 2240,
+                        "beer_name": "Anchor Porter",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-AnchorPorter_2240.jpeg",
+                        "beer_abv": 5.6,
+                        "beer_ibu": 0,
+                        "beer_slug": "anchor-brewing-company-anchor-porter",
+                        "beer_style": "Porter - American",
+                        "beer_description": "With deep black color, a thick, creamy head, rich chocolate, toffee and coffee flavors, and full-bodied smoothness, Anchor PorterÂ® is the epitome of a handcrafted dark beer.\n\nA blend of specially roasted pale, caramel, chocolate, and black malts, along with our top-fermenting yeast, creates complexity without bitterness. The brew is hopped at a high rate, and naturally carbonated. The result is dark in the glass, but surprisingly light on the palate.\n\nAnchor PorterÂ® became the first modern American porter when it was introduced in 1972. As we celebrate its 40th anniversary, our porter continues to reward those who look beyond its intimidating appearance to discover its smooth, full-bodied drinkability. Anchor PorterÂ® is the definitive American Porter. ",
+                        "created_at": "Sat, 21 Aug 2010 09:26:35 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.591,
+                        "rating_count": 53628
+                    },
+                    "brewery": {
+                        "brewery_id": 3891,
+                        "brewery_name": "Anchor Brewing Company",
+                        "brewery_slug": "anchor-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-AnchorBrewingCompany_3891.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "AnchorBrewing",
+                            "facebook": "http:\/\/www.facebook.com\/anchorbrewing",
+                            "instagram": "anchorbrewing",
+                            "url": "http:\/\/www.anchorbrewing.com"
+                        },
+                        "location": {
+                            "brewery_city": "San Francisco",
+                            "brewery_state": "CA",
+                            "lat": 37.7635,
+                            "lng": -122.401
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 409288392,
+                    "first_created_at": "Sun, 22 Jan 2017 17:17:47 -0700",
+                    "recent_checkin_id": 409288392,
+                    "recent_created_at": "Sun, 22 Jan 2017 17:17:47 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.5,
+                    "first_had": "Sun, 22 Jan 2017 17:17:47 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 4996,
+                        "beer_name": "Punkin Ale",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-4996_05c91_sm.jpeg",
+                        "beer_abv": 7,
+                        "beer_ibu": 28,
+                        "beer_slug": "dogfish-head-craft-brewery-punkin-ale",
+                        "beer_style": "Pumpkin \/ Yam Beer",
+                        "beer_description": "A full-bodied brown ale with smooth hints of pumpkin and brown sugar. We brew our Punkin Ale with pumpkin meat, brown sugar and spices. As the season cools, this is the perfect beer to warm up with.\nPunkin Ale is named after the seriously off-centered southern Delaware extravaganza Punkin Chunkin (check out some of these Discovery Channel videos of Punkin Chunkin, you gotta see it to believe it!). In fact, Punkin Ale made its debut as it claimed first prize in the 1994 Punkin Chunkin Recipe Contest. Yes, that was a full 6 months before we even opened our doors for business!",
+                        "created_at": "Sat, 21 Aug 2010 09:26:35 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.772,
+                        "rating_count": 136790
+                    },
+                    "brewery": {
+                        "brewery_id": 459,
+                        "brewery_name": "Dogfish Head Craft Brewery",
+                        "brewery_slug": "dogfish-head-craft-brewery",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-459_b3e4d.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "dogfishbeer",
+                            "facebook": "http:\/\/www.facebook.com\/dogfishheadbeer",
+                            "instagram": "dogfishbeer",
+                            "url": "http:\/\/www.dogfish.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Milton",
+                            "brewery_state": "DE",
+                            "lat": 38.7776,
+                            "lng": -75.3099
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 409282104,
+                    "first_created_at": "Sun, 22 Jan 2017 17:06:54 -0700",
+                    "recent_checkin_id": 409282104,
+                    "recent_created_at": "Sun, 22 Jan 2017 17:06:54 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Sun, 22 Jan 2017 17:06:54 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1298411,
+                        "beer_name": "Adobe Igloo",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1298411_5e52d_sm.jpeg",
+                        "beer_abv": 6,
+                        "beer_ibu": 18,
+                        "beer_slug": "santa-fe-brewing-company-adobe-igloo",
+                        "beer_style": "Winter Warmer",
+                        "beer_description": "Adobe Igloo is our New Mexican answer to the classic Winter Warmer: dark red, full-bodied, and malt-forward. Traditionally, Winter Warmers are balanced with extra hops or a Wintery spice blend. We instead drew on our rich culinary heritage and focused on cacao nibs and red chile flakes. Offering chile flavor without heat and dusty raw cocoa rather than sweet chocolate, Adobe Iglooâ€™s intriguing complexity will keep you coming back, sip after warming sip.",
+                        "created_at": "Sun, 01 Nov 2015 22:22:17 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.591,
+                        "rating_count": 3300
+                    },
+                    "brewery": {
+                        "brewery_id": 1108,
+                        "brewery_name": "Santa Fe Brewing Company",
+                        "brewery_slug": "santa-fe-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-SantaFeBrewingCompany_1108.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "santafebrew",
+                            "facebook": "http:\/\/www.facebook.com\/SantaFeBrewing",
+                            "instagram": "santafebrew",
+                            "url": "http:\/\/www.santafebrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Santa Fe",
+                            "brewery_state": "NM",
+                            "lat": 35.5966,
+                            "lng": -106.052
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 409246982,
+                    "first_created_at": "Sun, 22 Jan 2017 16:06:05 -0700",
+                    "recent_checkin_id": 409246982,
+                    "recent_created_at": "Sun, 22 Jan 2017 16:06:05 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.5,
+                    "first_had": "Sun, 22 Jan 2017 16:06:05 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 5047,
+                        "beer_name": "Turbodog",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-5047_84552_sm.jpeg",
+                        "beer_abv": 5.6,
+                        "beer_ibu": 28,
+                        "beer_slug": "abita-brewing-company-turbodog",
+                        "beer_style": "Brown Ale - English",
+                        "beer_description": "Inside every dog, thereâ€™s a TurbodogÂ® ready to break free. This brown ale has a rich, dark color and body with a sweet chocolate, toffee-like flavor. TurbodogÂ® is powered by\npale, caramel and chocolate malts and Willamette hops for runaway good times.",
+                        "created_at": "Sat, 21 Aug 2010 09:26:35 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.514,
+                        "rating_count": 69318
+                    },
+                    "brewery": {
+                        "brewery_id": 10,
+                        "brewery_name": "Abita Brewing Company",
+                        "brewery_slug": "abita-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-AbitaBrewingCompany_10.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "TheAbitaBeer",
+                            "facebook": "https:\/\/www.facebook.com\/abita",
+                            "instagram": "AbitaBeer",
+                            "url": "http:\/\/www.abita.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Abita Springs",
+                            "brewery_state": "LA",
+                            "lat": 30.4821,
+                            "lng": -90.0552
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 409244934,
+                    "first_created_at": "Sun, 22 Jan 2017 16:02:31 -0700",
+                    "recent_checkin_id": 409244934,
+                    "recent_created_at": "Sun, 22 Jan 2017 16:02:31 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Sun, 22 Jan 2017 16:02:31 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 618387,
+                        "beer_name": "Haleakala Sunryes",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-618387_cd06c_sm.jpeg",
+                        "beer_abv": 5.7,
+                        "beer_ibu": 78,
+                        "beer_slug": "maui-brewing-company-haleakala-sunryes",
+                        "beer_style": "Rye IPA",
+                        "beer_description": "An India Pale Ale brewed with a generous amount of rye malt, this beer pours a deep orange, ruby red color reminiscent of the world famous Haleakala Crater sunrises it was inspired by. Medium bodied with a strong spicy, herbal character from both the use of rye malt and Chinook and Zythos hops. Rounded out with a touch of caramel sweetness and a pleasant bitter finish.",
+                        "created_at": "Sat, 15 Mar 2014 17:29:02 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.667,
+                        "rating_count": 4763
+                    },
+                    "brewery": {
+                        "brewery_id": 836,
+                        "brewery_name": "Maui Brewing Company",
+                        "brewery_slug": "maui-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-836_fd28d.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "MauiBrewingCo",
+                            "facebook": "http:\/\/www.facebook.com\/MauiBrewingCo",
+                            "instagram": "MauiBrewingCo",
+                            "url": "http:\/\/www.mauibrewing.com"
+                        },
+                        "location": {
+                            "brewery_city": "Kihei",
+                            "brewery_state": "HI",
+                            "lat": 20.7495,
+                            "lng": -156.437
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 409179236,
+                    "first_created_at": "Sun, 22 Jan 2017 14:16:39 -0700",
+                    "recent_checkin_id": 409179236,
+                    "recent_created_at": "Sun, 22 Jan 2017 14:16:39 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.25,
+                    "first_had": "Sun, 22 Jan 2017 14:16:39 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 4887,
+                        "beer_name": "CrÃ¨me BrÃ»lÃ©e",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-4887_70c5a_sm.jpeg",
+                        "beer_abv": 10,
+                        "beer_ibu": 55,
+                        "beer_slug": "southern-tier-brewing-company-creme-brulee",
+                        "beer_style": "Stout - Imperial Milk \/ Sweet",
+                        "beer_description": "NEW LOOK - SAME WORLD CLASS LIQUID\nThe British founders of burnt cream and from Spain, crema catalana, both stand by their creative originality and we respect that, but it was the French CrÃ¨me BrÃ»lÃ©e, amid the strife of contention, that survived to represent our deliciously creamy brew.",
+                        "created_at": "Sat, 21 Aug 2010 09:26:35 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.95,
+                        "rating_count": 99232
+                    },
+                    "brewery": {
+                        "brewery_id": 4586,
+                        "brewery_name": "Southern Tier Brewing Company",
+                        "brewery_slug": "southern-tier-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-4586_47eba.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "stbcbeer",
+                            "facebook": "http:\/\/www.facebook.com\/SouthernTierBrewingCompany",
+                            "instagram": "stbcbeer",
+                            "url": "http:\/\/www.stbcbeer.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Lakewood",
+                            "brewery_state": "NY",
+                            "lat": 42.0889,
+                            "lng": -79.3482
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 409166560,
+                    "first_created_at": "Sun, 22 Jan 2017 13:58:01 -0700",
+                    "recent_checkin_id": 409166560,
+                    "recent_created_at": "Sun, 22 Jan 2017 13:58:01 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Sun, 22 Jan 2017 13:58:01 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1604713,
+                        "beer_name": "Hanalei Island IPA",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1604713_bf809_sm.jpeg",
+                        "beer_abv": 4.5,
+                        "beer_ibu": 40,
+                        "beer_slug": "kona-brewing-company-hanalei-island-ipa",
+                        "beer_style": "IPA - American",
+                        "beer_description": "This ale is brewed with passion fruit, orange and guava the beer will paddle in at 4.5%-AbV.",
+                        "created_at": "Fri, 17 Jun 2016 04:07:24 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.748,
+                        "rating_count": 3419
+                    },
+                    "brewery": {
+                        "brewery_id": 1988,
+                        "brewery_name": "Kona Brewing Company",
+                        "brewery_slug": "kona-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-konabrewingcompany_1988.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "KonaBrewingCo",
+                            "facebook": "https:\/\/www.facebook.com\/KonaBrewingCo",
+                            "instagram": "konabrewingco",
+                            "url": "http:\/\/konabrewingco.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Kailua-Kona",
+                            "brewery_state": "HI",
+                            "lat": 19.64,
+                            "lng": -155.997
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 409140824,
+                    "first_created_at": "Sun, 22 Jan 2017 13:20:11 -0700",
+                    "recent_checkin_id": 409140824,
+                    "recent_created_at": "Sun, 22 Jan 2017 13:20:11 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.25,
+                    "first_had": "Sun, 22 Jan 2017 13:20:11 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1847375,
+                        "beer_name": "Husky IPA",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1847375_c03da_sm.jpeg",
+                        "beer_abv": 7,
+                        "beer_ibu": 50,
+                        "beer_slug": "alaskan-brewing-co-husky-ipa",
+                        "beer_style": "IPA - American",
+                        "beer_description": "",
+                        "created_at": "Sat, 03 Dec 2016 01:58:53 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.814,
+                        "rating_count": 1895
+                    },
+                    "brewery": {
+                        "brewery_id": 17,
+                        "brewery_name": "Alaskan Brewing Co.",
+                        "brewery_slug": "alaskan-brewing-co",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-17_9a0f2.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "alaskanbrewing",
+                            "facebook": "http:\/\/www.facebook.com\/AlaskanBrewingCo",
+                            "instagram": "",
+                            "url": "http:\/\/www.alaskanbeer.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Juneau",
+                            "brewery_state": "AK",
+                            "lat": 58.3568,
+                            "lng": -134.489
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 407727149,
+                    "first_created_at": "Thu, 19 Jan 2017 18:11:43 -0700",
+                    "recent_checkin_id": 407727149,
+                    "recent_created_at": "Thu, 19 Jan 2017 18:11:43 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.25,
+                    "first_had": "Thu, 19 Jan 2017 18:11:43 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1806038,
+                        "beer_name": "Voodoo Ranger 8 Hop Pale Ale",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1806038_bef69_sm.jpeg",
+                        "beer_abv": 5.5,
+                        "beer_ibu": 32,
+                        "beer_slug": "new-belgium-brewing-company-voodoo-ranger-8-hop-pale-ale",
+                        "beer_style": "Pale Ale - American",
+                        "beer_description": "Brilliantly balanced for easy drinking, this pale ale is packed with citrus and tropical fruit flavors from eight different hop varieties.",
+                        "created_at": "Fri, 04 Nov 2016 19:11:30 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.777,
+                        "rating_count": 6663
+                    },
+                    "brewery": {
+                        "brewery_id": 905,
+                        "brewery_name": "New Belgium Brewing Company",
+                        "brewery_slug": "new-belgium-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-905_2ddc7.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "newbelgium",
+                            "facebook": "http:\/\/www.facebook.com\/newbelgium",
+                            "instagram": "newbelgium",
+                            "url": "http:\/\/www.newbelgium.com"
+                        },
+                        "location": {
+                            "brewery_city": "Fort Collins",
+                            "brewery_state": "CO",
+                            "lat": 40.5934,
+                            "lng": -105.067
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 405950880,
+                    "first_created_at": "Sat, 14 Jan 2017 12:31:28 -0700",
+                    "recent_checkin_id": 405950880,
+                    "recent_created_at": "Sat, 14 Jan 2017 12:31:28 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.25,
+                    "first_had": "Sat, 14 Jan 2017 12:31:28 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1518190,
+                        "beer_name": "Popsicle Blonde",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 4.5,
+                        "beer_ibu": 24,
+                        "beer_slug": "o-h-s-o-brewery-and-distillery-popsicle-blonde",
+                        "beer_style": "Blonde Ale",
+                        "beer_description": "Brewed as an ode to everyone's favorite frozen treat. Popcycle Blonde ale takes raspberries and lemons and combines them for a poolside sipper. This beer evokes the sound of the ice cream truck approaching. Popcycle Blonde is light, sweet, and thirst quenching made for hot days and good times.",
+                        "created_at": "Wed, 20 Apr 2016 02:05:04 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.7,
+                        "rating_count": 452
+                    },
+                    "brewery": {
+                        "brewery_id": 18850,
+                        "brewery_name": "O.H.S.O. Brewery & Distillery",
+                        "brewery_slug": "o-h-s-o-brewery-distillery",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-18850_98a75.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "ohsobrewery",
+                            "facebook": "http:\/\/www.facebook.com\/ohsobrewery",
+                            "instagram": "ohsobrewery",
+                            "url": "http:\/\/www.ohsobrewery.com"
+                        },
+                        "location": {
+                            "brewery_city": "Phoenix",
+                            "brewery_state": "AZ",
+                            "lat": 33.495,
+                            "lng": -111.976
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 403877335,
+                    "first_created_at": "Sat, 07 Jan 2017 17:17:42 -0700",
+                    "recent_checkin_id": 403877335,
+                    "recent_created_at": "Sat, 07 Jan 2017 17:17:42 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.75,
+                    "first_had": "Sat, 07 Jan 2017 17:17:42 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1740377,
+                        "beer_name": "Samuel Adams Hopscape",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1740377_26c23_sm.jpeg",
+                        "beer_abv": 5.5,
+                        "beer_ibu": 30,
+                        "beer_slug": "boston-beer-company-samuel-adams-hopscape",
+                        "beer_style": "Pale Wheat Ale - American",
+                        "beer_description": "Four types of West Coast hops add bold notes of pine and juicy grapefruit to this deep golden wheat ale, for a crisp flavor thatâ€™s a refreshing escape from winterâ€™s lingering chill.",
+                        "created_at": "Mon, 19 Sep 2016 01:06:43 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.536,
+                        "rating_count": 32468
+                    },
+                    "brewery": {
+                        "brewery_id": 157,
+                        "brewery_name": "Boston Beer Company",
+                        "brewery_slug": "boston-beer-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-157_6a2d2.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "SamuelAdamsBeer",
+                            "facebook": "https:\/\/www.facebook.com\/SamuelAdams",
+                            "instagram": "samueladamsbeer",
+                            "url": "http:\/\/www.samueladams.com"
+                        },
+                        "location": {
+                            "brewery_city": "Boston",
+                            "brewery_state": "MA",
+                            "lat": 42.3144,
+                            "lng": -71.1034
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 403767192,
+                    "first_created_at": "Sat, 07 Jan 2017 15:10:36 -0700",
+                    "recent_checkin_id": 403767192,
+                    "recent_created_at": "Sat, 07 Jan 2017 15:10:36 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Sat, 07 Jan 2017 15:10:36 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1005604,
+                        "beer_name": "Azacca IPA",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1005604_c864e_sm.jpeg",
+                        "beer_abv": 7,
+                        "beer_ibu": 70,
+                        "beer_slug": "founders-brewing-co-azacca-ipa",
+                        "beer_style": "IPA - American",
+                        "beer_description": "Named for the Haitian god of agriculture, Azacca IPA boasts citrus, mango and orchard fruit notes on a sweet Caramel malt backbone. \n\n",
+                        "created_at": "Tue, 10 Mar 2015 21:32:31 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.819,
+                        "rating_count": 66918
+                    },
+                    "brewery": {
+                        "brewery_id": 549,
+                        "brewery_name": "Founders Brewing Co.",
+                        "brewery_slug": "founders-brewing-co",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-foundersbrewingcompany_549.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "foundersbrewing",
+                            "facebook": "http:\/\/www.facebook.com\/foundersbrewing",
+                            "instagram": "foundersbrewing",
+                            "url": "http:\/\/www.foundersbrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Grand Rapids",
+                            "brewery_state": "MI",
+                            "lat": 42.9585,
+                            "lng": -85.6735
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 403763276,
+                    "first_created_at": "Sat, 07 Jan 2017 15:06:04 -0700",
+                    "recent_checkin_id": 403763276,
+                    "recent_created_at": "Sat, 07 Jan 2017 15:06:04 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.75,
+                    "first_had": "Sat, 07 Jan 2017 15:06:04 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1551391,
+                        "beer_name": "Grapefruit Solis Occasus IPA",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 8.3,
+                        "beer_ibu": 100,
+                        "beer_slug": "mike-hess-brewing-grapefruit-solis-occasus-ipa",
+                        "beer_style": "IPA - Imperial \/ Double",
+                        "beer_description": "",
+                        "created_at": "Fri, 13 May 2016 03:57:48 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.95,
+                        "rating_count": 50
+                    },
+                    "brewery": {
+                        "brewery_id": 2174,
+                        "brewery_name": "Mike Hess Brewing",
+                        "brewery_slug": "mike-hess-brewing",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-hessbrewing_2174.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "mikehessbrewing",
+                            "facebook": "http:\/\/www.facebook.com\/MikeHessBrewing",
+                            "instagram": "mikehessbrewing",
+                            "url": "http:\/\/mikehessbrewing.com"
+                        },
+                        "location": {
+                            "brewery_city": "San Diego",
+                            "brewery_state": "CA",
+                            "lat": 32.7477,
+                            "lng": -117.128
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 403755323,
+                    "first_created_at": "Sat, 07 Jan 2017 14:56:41 -0700",
+                    "recent_checkin_id": 403755323,
+                    "recent_created_at": "Sat, 07 Jan 2017 14:56:41 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Sat, 07 Jan 2017 14:56:41 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1184504,
+                        "beer_name": "Tower Station",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1184504_f2854_sm.jpeg",
+                        "beer_abv": 7.25,
+                        "beer_ibu": 70,
+                        "beer_slug": "mother-road-brewing-co-tower-station",
+                        "beer_style": "IPA - American",
+                        "beer_description": "Parched motorists on Route 66 anticipated hospitality at Tower Station, opened in 1936. This unfiltered India Pale Ale greets you with a copper-orange hue and fluffy white head, releasing aromas of tangerine and pineapple. Pilsner and Pale malts balance hop derived flavors of grapefruit peel and pine to finish the journey. ",
+                        "created_at": "Sat, 01 Aug 2015 22:16:10 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.98,
+                        "rating_count": 5995
+                    },
+                    "brewery": {
+                        "brewery_id": 17421,
+                        "brewery_name": "Mother Road Brewing Co.",
+                        "brewery_slug": "mother-road-brewing-co",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-MotherRoadBrewing_17421.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "MotherRoadBeer",
+                            "facebook": "https:\/\/www.facebook.com\/MotherRoadBeer",
+                            "instagram": "MotherRoadBeer",
+                            "url": "http:\/\/www.motherroadbeer.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Flagstaff",
+                            "brewery_state": "AZ",
+                            "lat": 35.197,
+                            "lng": -111.652
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 403736137,
+                    "first_created_at": "Sat, 07 Jan 2017 14:34:01 -0700",
+                    "recent_checkin_id": 403736137,
+                    "recent_created_at": "Sat, 07 Jan 2017 14:34:01 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.25,
+                    "first_had": "Sat, 07 Jan 2017 14:34:01 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 89320,
+                        "beer_name": "Refuge",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-89320_be115_sm.jpeg",
+                        "beer_abv": 7.2,
+                        "beer_ibu": 75,
+                        "beer_slug": "arizona-wilderness-brewing-co-refuge",
+                        "beer_style": "IPA - American",
+                        "beer_description": "Hop Heads unite! This West Coast style IPA feeds the hops fiends that clamor for the greenery. Mango, melon and fresh cut pine fills the air and you are taken to your refuge! Chinook, Simcoe, Cascade and Columbus are all to blame for your love of our take on the IPA. Let this be your refuge of taste!",
+                        "created_at": "Mon, 17 Oct 2011 20:42:41 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.932,
+                        "rating_count": 5716
+                    },
+                    "brewery": {
+                        "brewery_id": 17411,
+                        "brewery_name": "Arizona Wilderness Brewing Co.",
+                        "brewery_slug": "arizona-wilderness-brewing-co",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-ArizonaWildernessBrewingCo_17411_0b893.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "AZWildernessCo",
+                            "facebook": "http:\/\/www.facebook.com\/azwbc",
+                            "instagram": "azwilderness",
+                            "url": "http:\/\/www.azwbeer.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Gilbert",
+                            "brewery_state": "AZ",
+                            "lat": 33.363,
+                            "lng": -111.841
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 403338606,
+                    "first_created_at": "Fri, 06 Jan 2017 18:00:52 -0700",
+                    "recent_checkin_id": 403338606,
+                    "recent_created_at": "Fri, 06 Jan 2017 18:00:52 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.25,
+                    "first_had": "Fri, 06 Jan 2017 18:00:52 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1702736,
+                        "beer_name": "Peppercorn Wit",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 5.6,
+                        "beer_ibu": 15,
+                        "beer_slug": "santan-brewing-company-peppercorn-wit",
+                        "beer_style": "Witbier",
+                        "beer_description": "A Belgian wit (white) beer brewed with white and black peppercorns and experimental hop HBC 291. The black and white peppercorns enhance the peppery character produced by the wit yeast, and the hops round out the aroma with citrus and dark fruit character. ",
+                        "created_at": "Wed, 24 Aug 2016 00:39:21 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.638,
+                        "rating_count": 112
+                    },
+                    "brewery": {
+                        "brewery_id": 2512,
+                        "brewery_name": "SanTan Brewing Company",
+                        "brewery_slug": "santan-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-2512_98df7.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "santanbrewing",
+                            "facebook": "http:\/\/www.facebook.com\/SanTanBrewingCo",
+                            "instagram": "santanbrewing",
+                            "url": "http:\/\/www.santanbrewing.com"
+                        },
+                        "location": {
+                            "brewery_city": "Chandler",
+                            "brewery_state": "AZ",
+                            "lat": 33.3032,
+                            "lng": -111.843
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 403303856,
+                    "first_created_at": "Fri, 06 Jan 2017 17:14:56 -0700",
+                    "recent_checkin_id": 403303856,
+                    "recent_created_at": "Fri, 06 Jan 2017 17:14:56 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.75,
+                    "first_had": "Fri, 06 Jan 2017 17:14:56 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1829446,
+                        "beer_name": "Yotes Pale Ale",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1829446_97787_sm.jpeg",
+                        "beer_abv": 5.4,
+                        "beer_ibu": 40,
+                        "beer_slug": "santan-brewing-company-yotes-pale-ale",
+                        "beer_style": "Pale Ale - American",
+                        "beer_description": "SanTan Brewing \nhas partnered with the Arizona Coyotes to create Yotes Pale Ale. \n\nThe color of this American Pale Ale is Coyotes brick red created by the use of natural Hibiscus flowers.  \n\nYPA has an ABV of \n5.4% and 40 IBU \nand was created using flavorful Cascade, Nelson Sauvin and Citra hops.\n",
+                        "created_at": "Sat, 19 Nov 2016 23:54:45 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.3,
+                        "rating_count": 268
+                    },
+                    "brewery": {
+                        "brewery_id": 2512,
+                        "brewery_name": "SanTan Brewing Company",
+                        "brewery_slug": "santan-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-2512_98df7.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "santanbrewing",
+                            "facebook": "http:\/\/www.facebook.com\/SanTanBrewingCo",
+                            "instagram": "santanbrewing",
+                            "url": "http:\/\/www.santanbrewing.com"
+                        },
+                        "location": {
+                            "brewery_city": "Chandler",
+                            "brewery_state": "AZ",
+                            "lat": 33.3032,
+                            "lng": -111.843
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 403287240,
+                    "first_created_at": "Fri, 06 Jan 2017 16:51:53 -0700",
+                    "recent_checkin_id": 403287240,
+                    "recent_created_at": "Fri, 06 Jan 2017 16:51:53 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.25,
+                    "first_had": "Fri, 06 Jan 2017 16:51:53 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 659406,
+                        "beer_name": "Arizona Farmhouse",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-659406_2e216_sm.jpeg",
+                        "beer_abv": 8,
+                        "beer_ibu": 45,
+                        "beer_slug": "santan-brewing-company-arizona-farmhouse",
+                        "beer_style": "Saison \/ Farmhouse Ale",
+                        "beer_description": "AZ Farmhouse is a beer we brewed for the preparation of the upcoming heat.  Traditionally brewed for the Belgian farmworkers to drink during the hot summer months, we too felt that a Saison, or Farmhouse Ale, would help make the impending summer much more bearable.  Our Farmhouse Ale has notes of tropical fruit and berries, balanced by a slight clove spice and hop bitterness.  You need not be a farm worker to really enjoy this beer.",
+                        "created_at": "Fri, 25 Apr 2014 17:43:17 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.633,
+                        "rating_count": 196
+                    },
+                    "brewery": {
+                        "brewery_id": 2512,
+                        "brewery_name": "SanTan Brewing Company",
+                        "brewery_slug": "santan-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-2512_98df7.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "santanbrewing",
+                            "facebook": "http:\/\/www.facebook.com\/SanTanBrewingCo",
+                            "instagram": "santanbrewing",
+                            "url": "http:\/\/www.santanbrewing.com"
+                        },
+                        "location": {
+                            "brewery_city": "Chandler",
+                            "brewery_state": "AZ",
+                            "lat": 33.3032,
+                            "lng": -111.843
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 402201671,
+                    "first_created_at": "Mon, 02 Jan 2017 13:41:12 -0700",
+                    "recent_checkin_id": 402201671,
+                    "recent_created_at": "Mon, 02 Jan 2017 13:41:12 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.5,
+                    "first_had": "Mon, 02 Jan 2017 13:41:12 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 326458,
+                        "beer_name": "Grandma's PecanÂ® English-Style Brown Ale",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-_326458_sm_88462372734dff9b387cf3e644b359.jpeg",
+                        "beer_abv": 6.2,
+                        "beer_ibu": 29,
+                        "beer_slug": "the-dudes-brewing-company-grandma-s-pecan-r-english-style-brown-ale",
+                        "beer_style": "Brown Ale - English",
+                        "beer_description": "Well, looks like grandma has gone nuts. This English style brown ale hits you upside the head with a nose chock-full of toasted Georgia pecan flavors followed by a rich, full-bodied finish. Just like grandmaâ€™s pecan pie, this baby will have you coming back for more. So, what are you waiting for? Pop the top and give old grandma a kiss.",
+                        "created_at": "Thu, 14 Mar 2013 21:02:57 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.603,
+                        "rating_count": 8890
+                    },
+                    "brewery": {
+                        "brewery_id": 57078,
+                        "brewery_name": "The Dudes' Brewing Company",
+                        "brewery_slug": "the-dudes-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-thedudesbrewingcompany_57078.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "thedudesbrew",
+                            "facebook": "https:\/\/www.facebook.com\/thedudesbrew",
+                            "instagram": "thedudesbrew",
+                            "url": "http:\/\/www.thedudesbrew.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Torrance",
+                            "brewery_state": "CA",
+                            "lat": 33.8416,
+                            "lng": -118.311
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 401969131,
+                    "first_created_at": "Sun, 01 Jan 2017 16:59:09 -0700",
+                    "recent_checkin_id": 401969131,
+                    "recent_created_at": "Sun, 01 Jan 2017 16:59:09 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Sun, 01 Jan 2017 16:59:09 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 3827,
+                        "beer_name": "Moonglow Weizenbock",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-3827_7df35_sm.jpeg",
+                        "beer_abv": 8.7,
+                        "beer_ibu": 0,
+                        "beer_slug": "victory-brewing-company-moonglow-weizenbock",
+                        "beer_style": "Weizenbock",
+                        "beer_description": "This dark amber wheat beer features fruity and spicy aromas galore.  Significant strength underlies the pleasant citric appeal of this bock beer. Redolent with the flavors of harvest fruit, Moonglow typifies the traditional weizenbock-style so thoroughly enjoyed throughout Bavaria. Left unfiltered, its unique yeast strain gives Moonglow a radiance all its own.",
+                        "created_at": "Sat, 21 Aug 2010 09:26:35 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.621,
+                        "rating_count": 24085
+                    },
+                    "brewery": {
+                        "brewery_id": 1326,
+                        "brewery_name": "Victory Brewing Company",
+                        "brewery_slug": "victory-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-1326_6ca88.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "VictoryBeer",
+                            "facebook": "https:\/\/www.facebook.com\/victorybeer",
+                            "instagram": "victorybeer",
+                            "url": "http:\/\/victorybeer.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Downingtown",
+                            "brewery_state": "PA",
+                            "lat": 40.0061,
+                            "lng": -75.6942
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 401881061,
+                    "first_created_at": "Sun, 01 Jan 2017 14:07:13 -0700",
+                    "recent_checkin_id": 401881061,
+                    "recent_created_at": "Sun, 01 Jan 2017 14:07:13 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.25,
+                    "first_had": "Sun, 01 Jan 2017 14:07:13 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 643901,
+                        "beer_name": "Pack Train",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-643901_6ca86_sm.jpeg",
+                        "beer_abv": 8.7,
+                        "beer_ibu": 85,
+                        "beer_slug": "big-sky-brewing-company-pack-train",
+                        "beer_style": "IPA - Imperial \/ Double",
+                        "beer_description": "",
+                        "created_at": "Thu, 10 Apr 2014 14:35:38 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.82,
+                        "rating_count": 2083
+                    },
+                    "brewery": {
+                        "brewery_id": 2927,
+                        "brewery_name": "Big Sky Brewing Company",
+                        "brewery_slug": "big-sky-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-BigSkyBrewingCompany_2927.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "BigSkyBrewing",
+                            "facebook": "http:\/\/www.facebook.com\/BigSkyBrewingCompany",
+                            "instagram": "",
+                            "url": "http:\/\/www.bigskybrew.com"
+                        },
+                        "location": {
+                            "brewery_city": "Missoula",
+                            "brewery_state": "MT",
+                            "lat": 46.9223,
+                            "lng": -114.073
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 401828406,
+                    "first_created_at": "Sun, 01 Jan 2017 12:12:45 -0700",
+                    "recent_checkin_id": 401828406,
+                    "recent_created_at": "Sun, 01 Jan 2017 12:12:45 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.75,
+                    "first_had": "Sun, 01 Jan 2017 12:12:45 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1853485,
+                        "beer_name": "Shiner Birthday Beer 108 (Cold-Brew Coffee Ale)",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1853485_8123c_sm.jpeg",
+                        "beer_abv": 5,
+                        "beer_ibu": 15,
+                        "beer_slug": "spoetzl-brewery-shiner-birthday-beer-108",
+                        "beer_style": "Dark Ale",
+                        "beer_description": "Shiner Cold-Brew Coffee Ale (Birthday Beer 108)\nFor our 108th birthday, weâ€™ve brewed up something special. Our first coffee ale, crafted in collaboration with Austinâ€™s own Chameleon Cold-Brew, made with dark-roasted specialty malt and Chameleonâ€™s beloved cold-brewed coffee, itâ€™s sure to wake up your tastebuds. But it wonâ€™t be here forever, so pour yourself a fresh cup while you can.",
+                        "created_at": "Wed, 07 Dec 2016 17:38:35 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.706,
+                        "rating_count": 8855
+                    },
+                    "brewery": {
+                        "brewery_id": 1179,
+                        "brewery_name": "Spoetzl Brewery",
+                        "brewery_slug": "spoetzl-brewery",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-SpoetzlBrewery_1179.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "ShinerBeer",
+                            "facebook": "http:\/\/www.facebook.com\/ShinerBeer",
+                            "instagram": "shinerbeer",
+                            "url": "http:\/\/shiner.com"
+                        },
+                        "location": {
+                            "brewery_city": "Shiner",
+                            "brewery_state": "TX",
+                            "lat": 29.4291,
+                            "lng": -97.1705
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 401573729,
+                    "first_created_at": "Sat, 31 Dec 2016 20:15:07 -0700",
+                    "recent_checkin_id": 401573729,
+                    "recent_created_at": "Sat, 31 Dec 2016 20:15:07 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 2,
+                    "first_had": "Sat, 31 Dec 2016 20:15:07 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 3778,
+                        "beer_name": "Miller High Life",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-3778_ae50e_sm.jpeg",
+                        "beer_abv": 4.6,
+                        "beer_ibu": 0,
+                        "beer_slug": "miller-brewing-company-miller-high-life",
+                        "beer_style": "Lager - North American Adjunct",
+                        "beer_description": "Miller High Life, also known as the Champagne of Beers, is a quintessentially classic, American-style lager. To this day, Miller High Life continues to be faithfully brewed as a golden pilsner, utilizing light-stable galena hops from the Pacific Northwest and a select combination of malted barley.",
+                        "created_at": "Sat, 21 Aug 2010 09:26:35 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 2.571,
+                        "rating_count": 119996
+                    },
+                    "brewery": {
+                        "brewery_id": 863,
+                        "brewery_name": "Miller Brewing Company",
+                        "brewery_slug": "miller-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-millerBrewing.jpg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "MillerCoors",
+                            "facebook": "http:\/\/www.facebook.com\/MillerCoors",
+                            "instagram": "",
+                            "url": "http:\/\/www.millercoors.com"
+                        },
+                        "location": {
+                            "brewery_city": "Milwaukee",
+                            "brewery_state": "WI",
+                            "lat": 43.0422,
+                            "lng": -87.9631
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 400801572,
+                    "first_created_at": "Fri, 30 Dec 2016 20:10:22 -0700",
+                    "recent_checkin_id": 400801572,
+                    "recent_created_at": "Fri, 30 Dec 2016 20:10:22 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.25,
+                    "first_had": "Fri, 30 Dec 2016 20:10:22 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 384796,
+                        "beer_name": "Fortunate Islands",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-384796_e0b4e_sm.jpeg",
+                        "beer_abv": 5,
+                        "beer_ibu": 46,
+                        "beer_slug": "modern-times-beer-fortunate-islands",
+                        "beer_style": "Pale Wheat Ale - American",
+                        "beer_description": "This frickinâ€™ tasty hoppy wheat beer is bursting with citrusy, tropical hop aroma, supported by a mild, nutty malt backbone and a clean bitterness. You couldâ€™ve gathered that from the exceptionally clear diagram above had you not slept through beer class, but whatever, we donâ€™t judge. Weâ€™re done talking. Just buy the beer.",
+                        "created_at": "Fri, 14 Jun 2013 14:25:05 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.808,
+                        "rating_count": 31111
+                    },
+                    "brewery": {
+                        "brewery_id": 68356,
+                        "brewery_name": "Modern Times Beer",
+                        "brewery_slug": "modern-times-beer",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-68356_982b4.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "ModernTimesBeer",
+                            "facebook": "https:\/\/www.facebook.com\/ModernTimesIsYourFriend",
+                            "instagram": "ModernTimesBeer",
+                            "url": "http:\/\/moderntimesbeer.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "San Diego",
+                            "brewery_state": "CA",
+                            "lat": 32.7542,
+                            "lng": -117.206
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 400788314,
+                    "first_created_at": "Fri, 30 Dec 2016 19:52:55 -0700",
+                    "recent_checkin_id": 400788314,
+                    "recent_created_at": "Fri, 30 Dec 2016 19:52:55 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.75,
+                    "first_had": "Fri, 30 Dec 2016 19:52:55 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1720646,
+                        "beer_name": "Phantom Bride IPA",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 7.1,
+                        "beer_ibu": 55,
+                        "beer_slug": "belching-beaver-brewery-phantom-bride",
+                        "beer_style": "IPA - American",
+                        "beer_description": "Named after the ethereal song by the one and only Deftones, Phantom Bride IPA is a blend of Amarillo, Citra, Simcoe, and Mosaic hops delicately balanced for the perfectly drinkable mix of citrus and hoppy goodness.",
+                        "created_at": "Mon, 05 Sep 2016 02:34:42 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 4.035,
+                        "rating_count": 5231
+                    },
+                    "brewery": {
+                        "brewery_id": 43025,
+                        "brewery_name": "Belching Beaver Brewery",
+                        "brewery_slug": "belching-beaver-brewery",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-BelchingBeaver_43025.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "belchingbeaver",
+                            "facebook": "https:\/\/www.facebook.com\/pages\/The-Belching-Beaver\/157351577682127",
+                            "instagram": "belchingbeaver",
+                            "url": "http:\/\/belchinbeaver.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Vista",
+                            "brewery_state": "CA",
+                            "lat": 33.145,
+                            "lng": -117.229
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 398933520,
+                    "first_created_at": "Mon, 26 Dec 2016 20:01:30 -0700",
+                    "recent_checkin_id": 398933520,
+                    "recent_created_at": "Mon, 26 Dec 2016 20:01:30 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.25,
+                    "first_had": "Mon, 26 Dec 2016 20:01:30 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1582670,
+                        "beer_name": "Born Yesterday Pale Ale (2016)",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-783273_5b7e1_sm.jpeg",
+                        "beer_abv": 7,
+                        "beer_ibu": 110,
+                        "beer_slug": "lagunitas-brewing-company-born-yesterday-pale-ale-2016",
+                        "beer_style": "Pale Ale - American",
+                        "beer_description": "#bornyesterday is a newborn verson of our reborn pale, New Dogtown Pale, with a fresh addition: Virgin hops from the trellised lands of the verdant Yakima Valley. Unkilned for an immaculate reception. Then deliver the resulting lilâ€™ brew in 24hrs. Congrats. Its a beer!",
+                        "created_at": "Thu, 02 Jun 2016 16:19:48 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 4.228,
+                        "rating_count": 16036
+                    },
+                    "brewery": {
+                        "brewery_id": 765,
+                        "brewery_name": "Lagunitas Brewing Company",
+                        "brewery_slug": "lagunitas-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-765_b53eb.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "lagunitasbeer",
+                            "facebook": "https:\/\/www.facebook.com\/LagunitasBrewingCo",
+                            "instagram": "lagunitasbeer",
+                            "url": "http:\/\/www.LAGUNITAS.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Petaluma",
+                            "brewery_state": "CA",
+                            "lat": 38.2724,
+                            "lng": -122.662
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 398889979,
+                    "first_created_at": "Mon, 26 Dec 2016 18:45:51 -0700",
+                    "recent_checkin_id": 398889979,
+                    "recent_created_at": "Mon, 26 Dec 2016 18:45:51 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Mon, 26 Dec 2016 18:45:51 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 632964,
+                        "beer_name": "Winter Welcome Ale",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-632964_e7918_sm.jpeg",
+                        "beer_abv": 6,
+                        "beer_ibu": 0,
+                        "beer_slug": "samuel-smith-old-brewery-winter-welcome-ale",
+                        "beer_style": "Winter Warmer",
+                        "beer_description": "This seasonal beer is a limited edition brewed for the short days and long nights of winter. The full body resulting from fermentation in â€˜stone Yorkshire squaresâ€™ and the luxurious malt character, which will appeal to a broad range of drinkers, is balanced against whole-dried Fuggle and Golding hops with nuances and complexities that should be contemplated before an open fire.\n\nBottle: Pasteurised.\nEach year the label has a different picture.\nIngredients: Water, malted barley, yeast, hops, seaweed finings, carbon dioxide.",
+                        "created_at": "Sat, 29 Mar 2014 19:10:01 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.522,
+                        "rating_count": 26488
+                    },
+                    "brewery": {
+                        "brewery_id": 1099,
+                        "brewery_name": "Samuel Smith's Old Brewery",
+                        "brewery_slug": "samuel-smiths-old-brewery",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-SamuelSmithOldBreweryTadcaster_1099.jpeg",
+                        "country_name": "England",
+                        "contact": {
+                            "twitter": "samsmithsbeer",
+                            "facebook": "https:\/\/www.facebook.com\/Samuel-Smiths-Brewery-1399982133640570\/",
+                            "instagram": "",
+                            "url": "http:\/\/www.samuelsmithsbrewery.co.uk"
+                        },
+                        "location": {
+                            "brewery_city": "Tadcaster",
+                            "brewery_state": "North Yorkshire",
+                            "lat": 53.8821,
+                            "lng": -1.26197
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 397993312,
+                    "first_created_at": "Sat, 24 Dec 2016 23:20:57 -0700",
+                    "recent_checkin_id": 397993312,
+                    "recent_created_at": "Sat, 24 Dec 2016 23:20:57 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.5,
+                    "first_had": "Sat, 24 Dec 2016 23:20:57 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 703127,
+                        "beer_name": "St. Bonifatius Pils",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 4.9,
+                        "beer_ibu": 0,
+                        "beer_slug": "privatbrauerei-hosl-st-bonifatius-pils",
+                        "beer_style": "Pilsner - German",
+                        "beer_description": "",
+                        "created_at": "Wed, 04 Jun 2014 14:05:33 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.249,
+                        "rating_count": 698
+                    },
+                    "brewery": {
+                        "brewery_id": 19166,
+                        "brewery_name": "Privatbrauerei HÃ¶sl",
+                        "brewery_slug": "privatbrauerei-hosl",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-19166_f187f.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "http:\/\/www.hoeslbier.de"
+                        },
+                        "location": {
+                            "brewery_city": "Mitterteich",
+                            "brewery_state": "",
+                            "lat": 49.9501,
+                            "lng": 12.2425
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 397972892,
+                    "first_created_at": "Sat, 24 Dec 2016 21:52:07 -0700",
+                    "recent_checkin_id": 397972892,
+                    "recent_created_at": "Sat, 24 Dec 2016 21:52:07 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Sat, 24 Dec 2016 21:52:07 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 5532,
+                        "beer_name": "Nut Brown Ale",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-NutBrownAle_5532.jpeg",
+                        "beer_abv": 5.2,
+                        "beer_ibu": 0,
+                        "beer_slug": "santa-fe-brewing-company-nut-brown-ale",
+                        "beer_style": "Brown Ale - American",
+                        "beer_description": "The Brown Ale style originated in the pubs of England, where beer drinkers desired a beer that was both flavorful and complex, but at the same time mild enough to be a session beer. The Santa Fe Brewing Company's interpretation of this style uses a combination of high mash temperature, hard water, and low-alpha acid hops to produce a product that is both true to the style and distinctly Santa Fe. Brewing jargon aside, Santa Fe Nut Brown Ale is an easy-drinking beer, mild, smooth, and always a favorite. Try a keg at your next party!",
+                        "created_at": "Sat, 21 Aug 2010 09:26:35 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.478,
+                        "rating_count": 6899
+                    },
+                    "brewery": {
+                        "brewery_id": 1108,
+                        "brewery_name": "Santa Fe Brewing Company",
+                        "brewery_slug": "santa-fe-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-SantaFeBrewingCompany_1108.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "santafebrew",
+                            "facebook": "http:\/\/www.facebook.com\/SantaFeBrewing",
+                            "instagram": "santafebrew",
+                            "url": "http:\/\/www.santafebrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Santa Fe",
+                            "brewery_state": "NM",
+                            "lat": 35.5966,
+                            "lng": -106.052
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 397262711,
+                    "first_created_at": "Fri, 23 Dec 2016 18:44:37 -0700",
+                    "recent_checkin_id": 397262711,
+                    "recent_created_at": "Fri, 23 Dec 2016 18:44:37 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.75,
+                    "first_had": "Fri, 23 Dec 2016 18:44:37 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1245576,
+                        "beer_name": "Winterfestbier",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 5.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "privatbrauerei-h-egerer-winterfestbier",
+                        "beer_style": "Lager - Winter",
+                        "beer_description": "Amber in colour. Light hops",
+                        "created_at": "Sun, 20 Sep 2015 23:16:49 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.187,
+                        "rating_count": 2024
+                    },
+                    "brewery": {
+                        "brewery_id": 58983,
+                        "brewery_name": "Privatbrauerei H. Egerer",
+                        "brewery_slug": "privatbrauerei-h-egerer",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-58983_22c07.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "www.egerer.de"
+                        },
+                        "location": {
+                            "brewery_city": "GroÃŸkÃ¶llnbach",
+                            "brewery_state": "",
+                            "lat": 48.7001,
+                            "lng": 12.6006
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 396805287,
+                    "first_created_at": "Thu, 22 Dec 2016 20:15:47 -0700",
+                    "recent_checkin_id": 396805287,
+                    "recent_created_at": "Thu, 22 Dec 2016 20:15:47 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.75,
+                    "first_had": "Thu, 22 Dec 2016 20:15:47 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 85068,
+                        "beer_name": "Tradition",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 5.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "herrnbrau-tradition",
+                        "beer_style": "Festbier",
+                        "beer_description": "",
+                        "created_at": "Fri, 07 Oct 2011 02:57:10 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.262,
+                        "rating_count": 2633
+                    },
+                    "brewery": {
+                        "brewery_id": 16830,
+                        "brewery_name": "HerrnbrÃ¤u",
+                        "brewery_slug": "herrnbr-u",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-Herrnbrau_16830.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "http:\/\/www.facebook.com\/Herrnbraeu",
+                            "instagram": "",
+                            "url": "www.herrnbraeu.de"
+                        },
+                        "location": {
+                            "brewery_city": "85053 Ingolstadt",
+                            "brewery_state": "BY",
+                            "lat": 48.7485,
+                            "lng": 11.4656
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 396420353,
+                    "first_created_at": "Wed, 21 Dec 2016 20:46:57 -0700",
+                    "recent_checkin_id": 396420353,
+                    "recent_created_at": "Wed, 21 Dec 2016 20:46:57 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.25,
+                    "first_had": "Wed, 21 Dec 2016 20:46:57 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 84804,
+                        "beer_name": "Grandl",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-Grandl_84804.jpeg",
+                        "beer_abv": 4.8,
+                        "beer_ibu": 0,
+                        "beer_slug": "ankerbrau-nordlingen-grandl",
+                        "beer_style": "Lager - Helles",
+                        "beer_description": "",
+                        "created_at": "Thu, 06 Oct 2011 09:06:30 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.236,
+                        "rating_count": 2614
+                    },
+                    "brewery": {
+                        "brewery_id": 11603,
+                        "brewery_name": "AnkerbrÃ¤u NÃ¶rdlingen",
+                        "brewery_slug": "ankerbr-u-n-rdlingen",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-AnkerbrauNordlingen_11603.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "http:\/\/www.facebook.com\/Ankerbraeu",
+                            "instagram": "",
+                            "url": "http:\/\/www.ankerbrau.de"
+                        },
+                        "location": {
+                            "brewery_city": "86720 NÃ¶rdlingen",
+                            "brewery_state": "BY",
+                            "lat": 48.852,
+                            "lng": 10.4842
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 396098248,
+                    "first_created_at": "Tue, 20 Dec 2016 20:22:08 -0700",
+                    "recent_checkin_id": 396098248,
+                    "recent_created_at": "Tue, 20 Dec 2016 20:22:08 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.5,
+                    "first_had": "Tue, 20 Dec 2016 20:22:08 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1255388,
+                        "beer_name": "AlpenkÃ¶nig Gold",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1255388_1d853_sm.jpeg",
+                        "beer_abv": 5.3,
+                        "beer_ibu": 0,
+                        "beer_slug": "privatbrauerei-h-egerer-alpenkonig-gold",
+                        "beer_style": "MÃ¤rzen",
+                        "beer_description": "",
+                        "created_at": "Tue, 29 Sep 2015 05:10:05 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.281,
+                        "rating_count": 2226
+                    },
+                    "brewery": {
+                        "brewery_id": 58983,
+                        "brewery_name": "Privatbrauerei H. Egerer",
+                        "brewery_slug": "privatbrauerei-h-egerer",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-58983_22c07.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "www.egerer.de"
+                        },
+                        "location": {
+                            "brewery_city": "GroÃŸkÃ¶llnbach",
+                            "brewery_state": "",
+                            "lat": 48.7001,
+                            "lng": 12.6006
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 396063020,
+                    "first_created_at": "Tue, 20 Dec 2016 18:56:07 -0700",
+                    "recent_checkin_id": 396063020,
+                    "recent_created_at": "Tue, 20 Dec 2016 18:56:07 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Tue, 20 Dec 2016 18:56:07 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 837227,
+                        "beer_name": "Fall Maple Strong Ale",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-837227_b5aea_sm.jpeg",
+                        "beer_abv": 9.5,
+                        "beer_ibu": 28,
+                        "beer_slug": "dubina-brewing-company-fall-maple-strong-ale",
+                        "beer_style": "Strong Ale - American",
+                        "beer_description": "Looking for something other than pumpkin beers? This was our \nanswer, a big and bold flavored maple beer. Finally a beer you\ncan enjoy in the fall and in the morning. This beer has been \nknown to pair very well with waffles and pancakes. Drink it\nwith your breakfast or pour it on top.",
+                        "created_at": "Wed, 08 Oct 2014 00:40:50 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.885,
+                        "rating_count": 379
+                    },
+                    "brewery": {
+                        "brewery_id": 153127,
+                        "brewery_name": "Dubina Brewing Company",
+                        "brewery_slug": "dubina-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-153127_c8b66.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "Dubinabrewing",
+                            "facebook": "http:\/\/facebook.com\/dubinabrew",
+                            "instagram": "dubinabrewing",
+                            "url": "http:\/\/DubinaBrewing.com"
+                        },
+                        "location": {
+                            "brewery_city": "Glendale",
+                            "brewery_state": "AZ",
+                            "lat": 33.6398,
+                            "lng": -112.202
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 396050289,
+                    "first_created_at": "Tue, 20 Dec 2016 18:29:29 -0700",
+                    "recent_checkin_id": 396050289,
+                    "recent_created_at": "Tue, 20 Dec 2016 18:29:29 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4.5,
+                    "first_had": "Tue, 20 Dec 2016 18:29:29 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 521981,
+                        "beer_name": "Rice Pudding Porter",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-521981_a0b78_sm.jpeg",
+                        "beer_abv": 5.1,
+                        "beer_ibu": 30,
+                        "beer_slug": "huss-brewing-company-rice-pudding-porter",
+                        "beer_style": "Porter - Other",
+                        "beer_description": "A robust American spiced porter brewed with vanilla beans, brown rice syrup, cinnamon, nutmeg and cloves. Classic holiday spice notes are prevalent while chocolate, coffee and dark fruit linger with a smooth finish. Weighs in at 5.1% for your holiday enjoyment!",
+                        "created_at": "Wed, 04 Dec 2013 16:24:30 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.651,
+                        "rating_count": 1637
+                    },
+                    "brewery": {
+                        "brewery_id": 85737,
+                        "brewery_name": "Huss Brewing Company",
+                        "brewery_slug": "huss-brewing-company",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-85737_3db79.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "hussbrewingco",
+                            "facebook": "https:\/\/www.facebook.com\/pages\/Huss-Brewing-Company\/124705721028469",
+                            "instagram": "hussbrewing",
+                            "url": "https:\/\/www.hussbrewing.com"
+                        },
+                        "location": {
+                            "brewery_city": "Tempe",
+                            "brewery_state": "AZ",
+                            "lat": 33.3568,
+                            "lng": -111.965
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 395847528,
+                    "first_created_at": "Mon, 19 Dec 2016 21:18:31 -0700",
+                    "recent_checkin_id": 395847528,
+                    "recent_created_at": "Mon, 19 Dec 2016 21:18:31 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Mon, 19 Dec 2016 21:18:31 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 19438,
+                        "beer_name": "Pray For Snow",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-19438_2ad9a_sm.jpeg",
+                        "beer_abv": 7.6,
+                        "beer_ibu": 37,
+                        "beer_slug": "10-barrel-brewing-co-pray-for-snow",
+                        "beer_style": "Winter Ale",
+                        "beer_description": "This delicately balanced Strong Ale starts with dark copper color mixed with slight reddish hues and a light tan head. Big malty aroma with a Munich character give way to a slight caramel & toffee mixed with spicy noble hop aroma, all wrapped together with a medium-bodied mouth feel. German malt flavor profile with slight roasty notes give Pray for Snow a subtle toffee sweetness balanced with spicy hop bitterness and slight alcohol warming. Served appropriately in a classic snifter.",
+                        "created_at": "Fri, 31 Dec 2010 08:42:34 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.567,
+                        "rating_count": 18483
+                    },
+                    "brewery": {
+                        "brewery_id": 3436,
+                        "brewery_name": "10 Barrel Brewing Co.",
+                        "brewery_slug": "10-barrel-brewing-co",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-10BarrelBrewingCompany_3436.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "10BarrelBrewing",
+                            "facebook": "http:\/\/www.facebook.com\/10BarrelBrewingCompany",
+                            "instagram": "10barrelbrewing",
+                            "url": "http:\/\/www.10barrel.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Bend",
+                            "brewery_state": "OR",
+                            "lat": 44.0864,
+                            "lng": -121.281
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 395815476,
+                    "first_created_at": "Mon, 19 Dec 2016 19:28:58 -0700",
+                    "recent_checkin_id": 395815476,
+                    "recent_created_at": "Mon, 19 Dec 2016 19:28:58 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.5,
+                    "first_had": "Mon, 19 Dec 2016 19:28:58 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 824210,
+                        "beer_name": "MÃ¤rzenbier",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-824210_9b2a8_sm.jpeg",
+                        "beer_abv": 5.3,
+                        "beer_ibu": 0,
+                        "beer_slug": "privatbrauerei-hosl-marzenbier",
+                        "beer_style": "MÃ¤rzen",
+                        "beer_description": "",
+                        "created_at": "Fri, 26 Sep 2014 21:05:24 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.334,
+                        "rating_count": 2468
+                    },
+                    "brewery": {
+                        "brewery_id": 19166,
+                        "brewery_name": "Privatbrauerei HÃ¶sl",
+                        "brewery_slug": "privatbrauerei-hosl",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-19166_f187f.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "http:\/\/www.hoeslbier.de"
+                        },
+                        "location": {
+                            "brewery_city": "Mitterteich",
+                            "brewery_state": "",
+                            "lat": 49.9501,
+                            "lng": 12.2425
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 395434948,
+                    "first_created_at": "Sun, 18 Dec 2016 14:17:58 -0700",
+                    "recent_checkin_id": 395434948,
+                    "recent_created_at": "Sun, 18 Dec 2016 14:17:58 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Sun, 18 Dec 2016 14:17:58 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 20236,
+                        "beer_name": "KartÃ¤user Doppelbock Dunkel",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 7.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "memminger-brauerei-kartauser-doppelbock-dunkel",
+                        "beer_style": "Doppelbock ",
+                        "beer_description": "",
+                        "created_at": "Sun, 02 Jan 2011 03:07:04 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.466,
+                        "rating_count": 1189
+                    },
+                    "brewery": {
+                        "brewery_id": 5713,
+                        "brewery_name": "Memminger Brauerei ",
+                        "brewery_slug": "memminger-brauerei",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-MemmingerBrauerei_5713.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "http:\/\/www.memminger-brauerei.de"
+                        },
+                        "location": {
+                            "brewery_city": "Memmingen",
+                            "brewery_state": "",
+                            "lat": 47.9962,
+                            "lng": 10.1686
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 395408505,
+                    "first_created_at": "Sun, 18 Dec 2016 13:31:00 -0700",
+                    "recent_checkin_id": 395408505,
+                    "recent_created_at": "Sun, 18 Dec 2016 13:31:00 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.5,
+                    "first_had": "Sun, 18 Dec 2016 13:31:00 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 61385,
+                        "beer_name": "Huber Weisses Original",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-HuberWeissesOriginal_61385.jpeg",
+                        "beer_abv": 5.6,
+                        "beer_ibu": 0,
+                        "beer_slug": "hofbrauhaus-freising-huber-weisses-original",
+                        "beer_style": "Hefeweizen",
+                        "beer_description": "",
+                        "created_at": "Fri, 01 Jul 2011 15:05:36 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.494,
+                        "rating_count": 3854
+                    },
+                    "brewery": {
+                        "brewery_id": 12231,
+                        "brewery_name": "Hofbrauhaus Freising",
+                        "brewery_slug": "hofbrauhaus-freising",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-HofbrauhausFreising_12231.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "www.hofbrauhaus-freising.de"
+                        },
+                        "location": {
+                            "brewery_city": "Freising",
+                            "brewery_state": "",
+                            "lat": 48.406,
+                            "lng": 11.7467
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 394931609,
+                    "first_created_at": "Sat, 17 Dec 2016 15:28:38 -0700",
+                    "recent_checkin_id": 394931609,
+                    "recent_created_at": "Sat, 17 Dec 2016 15:28:38 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.5,
+                    "first_had": "Sat, 17 Dec 2016 15:28:38 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 16941,
+                        "beer_name": "Tio Ramon Bock",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 0,
+                        "beer_ibu": 0,
+                        "beer_slug": "tio-ramon-tio-ramon-bock",
+                        "beer_style": "Bock",
+                        "beer_description": "",
+                        "created_at": "Sat, 25 Dec 2010 05:21:50 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 2.673,
+                        "rating_count": 117
+                    },
+                    "brewery": {
+                        "brewery_id": 30152,
+                        "brewery_name": "Casa Arriba Brewing Co.",
+                        "brewery_slug": "casa-arriba-brewing-co",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-CasaArribaBrewingCo_30152.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "arribamexican",
+                            "facebook": "https:\/\/www.facebook.com\/ArribaMexicanGrill",
+                            "instagram": "",
+                            "url": "http:\/\/www.arribamexicangrill.com"
+                        },
+                        "location": {
+                            "brewery_city": "Scottsdale",
+                            "brewery_state": "AZ",
+                            "lat": 33.6238,
+                            "lng": -111.919
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 394602226,
+                    "first_created_at": "Fri, 16 Dec 2016 21:29:48 -0700",
+                    "recent_checkin_id": 394602226,
+                    "recent_created_at": "Fri, 16 Dec 2016 21:29:48 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3,
+                    "first_had": "Fri, 16 Dec 2016 21:29:48 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1259588,
+                        "beer_name": "Kress Bayrisch Zwickel",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 5.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "privatbrauerei-h-egerer-kress-bayrisch-zwickel",
+                        "beer_style": "Kellerbier \/ Zwickelbier",
+                        "beer_description": "",
+                        "created_at": "Sat, 03 Oct 2015 01:17:13 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.331,
+                        "rating_count": 2555
+                    },
+                    "brewery": {
+                        "brewery_id": 58983,
+                        "brewery_name": "Privatbrauerei H. Egerer",
+                        "brewery_slug": "privatbrauerei-h-egerer",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-58983_22c07.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "www.egerer.de"
+                        },
+                        "location": {
+                            "brewery_city": "GroÃŸkÃ¶llnbach",
+                            "brewery_state": "",
+                            "lat": 48.7001,
+                            "lng": 12.6006
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 394137360,
+                    "first_created_at": "Thu, 15 Dec 2016 20:54:40 -0700",
+                    "recent_checkin_id": 394137360,
+                    "recent_created_at": "Thu, 15 Dec 2016 20:54:40 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.25,
+                    "first_had": "Thu, 15 Dec 2016 20:54:40 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 131421,
+                        "beer_name": "Alpenstoff",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-Alpenstoff_131421.jpeg",
+                        "beer_abv": 5.4,
+                        "beer_ibu": 0,
+                        "beer_slug": "burgerbrau-bad-reichenhall-alpenstoff",
+                        "beer_style": "Lager - Dortmunder \/ Export",
+                        "beer_description": "",
+                        "created_at": "Sun, 12 Feb 2012 16:26:36 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.326,
+                        "rating_count": 3723
+                    },
+                    "brewery": {
+                        "brewery_id": 24004,
+                        "brewery_name": "BÃ¼rgerbrÃ¤u Bad Reichenhall",
+                        "brewery_slug": "b-rgerbr-u-bad-reichenhall",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-BurgerbrauBadReichenhall_24004.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "http:\/\/www.buergerbraeu.com"
+                        },
+                        "location": {
+                            "brewery_city": "Bad Reichenhall",
+                            "brewery_state": "",
+                            "lat": 47.7222,
+                            "lng": 12.8752
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 393806322,
+                    "first_created_at": "Wed, 14 Dec 2016 19:07:13 -0700",
+                    "recent_checkin_id": 393806322,
+                    "recent_created_at": "Wed, 14 Dec 2016 19:07:13 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 4,
+                    "first_had": "Wed, 14 Dec 2016 19:07:13 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 1282605,
+                        "beer_name": "Altbayrisch Dunkel",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 5.2,
+                        "beer_ibu": 0,
+                        "beer_slug": "privatbrauerei-h-egerer-altbayrisch-dunkel",
+                        "beer_style": "Lager - Dunkel Munich",
+                        "beer_description": "",
+                        "created_at": "Wed, 21 Oct 2015 01:24:00 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.349,
+                        "rating_count": 2180
+                    },
+                    "brewery": {
+                        "brewery_id": 58983,
+                        "brewery_name": "Privatbrauerei H. Egerer",
+                        "brewery_slug": "privatbrauerei-h-egerer",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-58983_22c07.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "www.egerer.de"
+                        },
+                        "location": {
+                            "brewery_city": "GroÃŸkÃ¶llnbach",
+                            "brewery_state": "",
+                            "lat": 48.7001,
+                            "lng": 12.6006
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 393582326,
+                    "first_created_at": "Tue, 13 Dec 2016 20:07:10 -0700",
+                    "recent_checkin_id": 393582326,
+                    "recent_created_at": "Tue, 13 Dec 2016 20:07:10 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.75,
+                    "first_had": "Tue, 13 Dec 2016 20:07:10 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 84159,
+                        "beer_name": "Publiner",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-Publiner_84159.jpeg",
+                        "beer_abv": 5,
+                        "beer_ibu": 0,
+                        "beer_slug": "schlossbrauerei-herrngiersdorf-publiner",
+                        "beer_style": "Red Ale - Irish",
+                        "beer_description": "",
+                        "created_at": "Tue, 04 Oct 2011 08:02:18 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.24,
+                        "rating_count": 2668
+                    },
+                    "brewery": {
+                        "brewery_id": 16721,
+                        "brewery_name": "Schlossbrauerei Herrngiersdorf",
+                        "brewery_slug": "schlossbrauerei-herrngiersdorf",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-brewery-default.png",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "www.schlossbrauerei-herrngiersdorf.de"
+                        },
+                        "location": {
+                            "brewery_city": "Herrngiersdorf",
+                            "brewery_state": "",
+                            "lat": 48.7908,
+                            "lng": 12.068
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 393548210,
+                    "first_created_at": "Tue, 13 Dec 2016 18:36:18 -0700",
+                    "recent_checkin_id": 393548210,
+                    "recent_created_at": "Tue, 13 Dec 2016 18:36:18 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.5,
+                    "first_had": "Tue, 13 Dec 2016 18:36:18 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 7005,
+                        "beer_name": "Bohemia ClÃ¡sica",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-BohemiaClasica_7005.jpeg",
+                        "beer_abv": 4.8,
+                        "beer_ibu": 0,
+                        "beer_slug": "cerveceria-cuauhtemoc-moctezuma-s-a-de-c-v-bohemia-clasica",
+                        "beer_style": "Lager - North American Adjunct",
+                        "beer_description": "Bohemia Clasica is a pale Mexican lager that has become a popular choice for beer drinkers looking for a brew that is readily available and affordable.",
+                        "created_at": "Sat, 30 Oct 2010 16:00:43 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.183,
+                        "rating_count": 32229
+                    },
+                    "brewery": {
+                        "brewery_id": 360,
+                        "brewery_name": "CervecerÃ­a CuauhtÃ©moc Moctezuma S.A. de C.V.",
+                        "brewery_slug": "cerveceria-cuauhtemoc-moctezuma-sa-de-cv",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-360_7cfc5.jpeg",
+                        "country_name": "Mexico",
+                        "contact": {
+                            "twitter": "cuamocmx",
+                            "facebook": "https:\/\/www.facebook.com\/cuamocmx",
+                            "instagram": "",
+                            "url": "http:\/\/www.cuamoc.com\/es"
+                        },
+                        "location": {
+                            "brewery_city": "Monterrey",
+                            "brewery_state": "Nuevo LeÃ³n",
+                            "lat": 25.6949,
+                            "lng": -100.317
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 393351064,
+                    "first_created_at": "Mon, 12 Dec 2016 19:26:04 -0700",
+                    "recent_checkin_id": 393351064,
+                    "recent_created_at": "Mon, 12 Dec 2016 19:26:04 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3,
+                    "first_had": "Mon, 12 Dec 2016 19:26:04 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 873482,
+                        "beer_name": "Osser Gold",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                        "beer_abv": 5.5,
+                        "beer_ibu": 0,
+                        "beer_slug": "spath-brau-osser-bier-osser-gold",
+                        "beer_style": "Lager - Helles",
+                        "beer_description": "",
+                        "created_at": "Mon, 10 Nov 2014 00:48:09 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.145,
+                        "rating_count": 2490
+                    },
+                    "brewery": {
+                        "brewery_id": 76578,
+                        "brewery_name": "SpÃ¤th BrÃ¤u Osser Bier",
+                        "brewery_slug": "sp-th-br-u-osser-bier",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-SpathBrau_76578_bda90.jpeg",
+                        "country_name": "Germany",
+                        "contact": {
+                            "twitter": "",
+                            "facebook": "",
+                            "instagram": "",
+                            "url": "www.osser-bier.de"
+                        },
+                        "location": {
+                            "brewery_city": "Lohberg",
+                            "brewery_state": "",
+                            "lat": 49.1746,
+                            "lng": 13.1055
+                        },
+                        "brewery_active": 1
+                    }
+                },
+                {
+                    "first_checkin_id": 393185434,
+                    "first_created_at": "Sun, 11 Dec 2016 21:35:36 -0700",
+                    "recent_checkin_id": 393185434,
+                    "recent_created_at": "Sun, 11 Dec 2016 21:35:36 -0700",
+                    "recent_created_at_timezone": "-7",
+                    "rating_score": 3.75,
+                    "first_had": "Sun, 11 Dec 2016 21:35:36 -0700",
+                    "count": 1,
+                    "beer": {
+                        "bid": 21255,
+                        "beer_name": "Edel Pils",
+                        "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-AlfaEdelPils_21255.jpeg",
+                        "beer_abv": 5,
+                        "beer_ibu": 0,
+                        "beer_slug": "alfa-bierbrouwerij-b-v-edel-pils",
+                        "beer_style": "Pilsner - Other",
+                        "beer_description": "\"This pure and natural pilsner has an alcohol percentage of 5% by volume. Alfa Edel Pils is prepared from barley malts, natural hops, and spring water. Itâ€™s a beer with a character all its own: generous in taste with a subtle bouquet. Each bottle of Alfa Edel Pils has a unique number printed on its neck label. The ideal drinking temperature is 7\/8Â°C.\"\n\nAlcohol %: 5",
+                        "created_at": "Tue, 04 Jan 2011 22:25:28 +0000",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "rating_score": 3.303,
+                        "rating_count": 13189
+                    },
+                    "brewery": {
+                        "brewery_id": 9447,
+                        "brewery_name": "Alfa Bierbrouwerij",
+                        "brewery_slug": "alfa-bierbrouwerij",
+                        "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-AlfaBierbrouwerijBV_9447.jpeg",
+                        "country_name": "Netherlands",
+                        "contact": {
+                            "twitter": "Alfabier",
+                            "facebook": "facebook.com\/alfabier",
+                            "instagram": "alfabier",
+                            "url": "http:\/\/www.alfa-bier.nl\/"
+                        },
+                        "location": {
+                            "brewery_city": "Schinnen",
+                            "brewery_state": "Limburg",
+                            "lat": 50.9363,
+                            "lng": 5.89409
+                        },
+                        "brewery_active": 1
+                    }
+                }
+            ],
+            "sort_english": "Date (New to Old)",
+            "sort_name": "Date (New to Old)"
+        },
+        "sort_name": "Date (New to Old)",
+        "sort_key": "date"
+    }
+}
