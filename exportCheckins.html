@@ -57,8 +57,8 @@
 
         var urlTest = "";
 	//loop through each beer and then get checkin information
-    //jQuery.get( "https://api.untappd.com/v4/user/beers/" + username + "?offset=" + offSet + "&limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( beerResponse ) { 
-		getArrayBeerInfo().done( function(beerResponse) {
+    jQuery.get( "https://api.untappd.com/v4/user/beers/" + username + "?offset=" + offSet + "&limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( beerResponse ) { 
+		//getArrayBeerInfo().done( function(beerResponse) {
 
          for (var j in beerResponse.response.beers.items) {
                 beerCheck = beerResponse.response.beers.items[j];
@@ -97,7 +97,7 @@
             return $.getJSON('json/checkin.json');
         }
 
-        getArray().done( function(response) {
+        //getArray().done( function(response) {
             //console.log(response); // show the json data in console
             var _len = response.length;
 
