@@ -49,6 +49,7 @@
 		//alert(breweryID);
         var username = document.getElementById("username").value;
         var offSet = document.getElementById("offSet").value;
+        var limit = document.getElementById("limit").value;
         var innerHTML = "";
         
         function getArrayBeerInfo(){
@@ -57,7 +58,7 @@
 
         var urlTest = "";
 	//loop through each beer and then get checkin information
-    jQuery.get( "https://api.untappd.com/v4/user/beers/" + username + "?offset=" + offSet + "&limit=50&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( beerResponse ) { 
+    jQuery.get( "https://api.untappd.com/v4/user/beers/" + username + "?offset=" + offSet + "&limit=" + limit + "&client_id=2C124996F70CECCA904584275353DB8CF8F1C266&client_secret=E31D881E2E5C8D02D849BEBB1AF9C9F6B2DA1369", function( beerResponse ) { 
 		//getArrayBeerInfo().done( function(beerResponse) {
 
          for (var j in beerResponse.response.beers.items) {
@@ -178,7 +179,19 @@
   <option value="901">901</option>
   <option value="951">951</option>
   <option value="1001">1001</option>
- 
+</select>
+<select id="limit">
+  <option value="1">0</option>
+  <option value="5">5</option>
+  <option value="10">10</option>
+  <option value="15">15</option>
+  <option value="20">20</option>
+  <option value="25">25</option>
+  <option value="30">30</option>
+  <option value="35">35</option>
+  <option value="40">40</option>
+  <option value="45" >45</option>
+  <option value="50">50</option>
 </select>
 <input id="includeHeader" name="includeHeader" type="checkbox" />Include header?</input>
 <button type="button" onClick="getBeer()">Go!</button>

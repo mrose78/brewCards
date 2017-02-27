@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Make Untappd Card</title>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/html2canvas.js"></script>
+        <link href="css/cardExportstyle.css" rel="stylesheet" />
+        <script type="text/javascript">
+        function exportFrontCard(){
+            html2canvas($('#frontCard'), 
+                {
+                onrendered: function (canvas) {
+                    var a = document.createElement('a');
+                    a.href = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+                    a.download = 'frontCard.png';
+                    a.click();
+                }
+                });
+        }
+
+        function exportBackCard(){
+            html2canvas($('#backCard'), 
+                {
+                onrendered: function (canvas) {
+                    var a = document.createElement('a');
+                    a.href = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+                    a.download = 'backCard.png';
+                    a.click();
+                }
+                });
+        }
+        </script>
+    </head>
+<body>
+        <div class="frontcard">
+            <div class="face front" id="frontCard">
+            
+            </div>
+</div>
+        <div class="backcard">
+            <div class="face back" id="backCard">
+            
+            </div>
+        </div>
+<button type="button" onClick="exportFrontCard()">Export Front</button>
+<button type="button" onClick="exportBackCard()">Export Back</button>
+</body>
+</html>
