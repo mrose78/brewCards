@@ -24,6 +24,19 @@ body {
   float:left;
 }
 
+.beer-photo-front {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  width: 720px;
+  height: 1030px;
+  border-width: 3px;
+  border-style: solid;
+  color: rgb(155, 125, 0);
+  border-bottom-left-radius: 32px;
+  background-repeat: no-repeat;
+}
+
 .back {
   width: 1050px;
   height: 750px;
