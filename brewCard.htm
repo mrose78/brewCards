@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beer Card</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    .card {
+      width: 300px;
+      height: 450px;
+      perspective: 1000px;
+      margin-bottom: 20px;
+    }
+
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+    }
+
+    .card:hover .card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .card-front, .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+
+    .card-front {
+      background-size: cover;
+      background-position: center;
+    }
+
+    .card-back {
+      background: linear-gradient(135deg, #e3d2b0, #f5e6c7), url('https://www.transparenttextures.com/patterns/white-diamond.png');
+      background-size: cover;
+      transform: rotateY(180deg);
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      box-sizing: border-box;
+      font-family: 'Permanent Marker', sans-serif;
+      color: #333;
+      justify-content: space-between;
+    }
+
+    .card-back h3 {
+      margin: 0 0 10px;
+      font-size: 1.8rem;
+      color: #d64045;
+      text-align: center;
+    }
+
+    .card-back p {
+      margin: 5px 0;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+    .card-back .stats {
+      margin-top: auto;
+      font-size: 0.9rem;
+      color: #555;
+      border-top: 2px solid #333;
+      padding-top: 10px;
+    }
+
+    button {
+      background-color: #d64045;
+      color: white;
+      font-family: 'Permanent Marker', sans-serif;
+      font-size: 1.2rem;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #a63035;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <div class="card-inner">
+    <!-- Front of the card -->
+    <div class="card-front" id="card-front"></div>
+
+    <!-- Back of the card -->
+    <div class="card-back">
+      <h3 id="beer-name">Beer Name</h3>
+      <p><strong>Brewery:</strong> <span id="brewery-name">Brewery Name</span></p>
+      <p><strong>Type:</strong> <span id="beer-type">Beer Type</span></p>
+      <p><strong>ABV:</strong> <span id="beer-abv">0%</span></p>
+      <p><strong>IBU:</strong> <span id="beer-ibu">0</span></p>
+      <p><strong>Comment:</strong> <span id="comment">No comments</span></p>
+      <p><strong>Venue:</strong> <span id="venue-name">Venue Name</span>, <span id="venue-city">City</span>, <span id="venue-state">State</span>, <span id="venue-country">Country</span></p>
+      <p><strong>Rating:</strong> <span id="rating-score">0</span></p>
+      <p class="stats"><strong>Checked in at:</strong> <span id="created-at">Date</span></p>
+    </div>
+  </div>
+</div>
+
+<!-- Button to Load a New Random Beer -->
+<button onclick="loadRandomBeer()">Load Random Beer</button>
+
+<script>
+  // Function to fetch and parse the CSV file, then pick a random beer
+  function loadRandomBeer() {
+    Papa.parse('csv/checkins.csv', {
+      download: true,
+      header: true,
+      complete: function(results) {
+        const beers = results.data;
+        const randomBeer = beers[Math.floor(Math.random() * beers.length)];
+
+        // Use placeholder if photo_url is missing or empty
+        const photoUrl = randomBeer.photo_url ? randomBeer.photo_url : 'images/no_beer.png';
+
+        // Populate card with random beer data
+        document.getElementById('card-front').style.backgroundImage = `url(${photoUrl})`;
+        document.getElementById('beer-name').textContent = randomBeer.beer_name;
+        document.getElementById('brewery-name').textContent = randomBeer.brewery_name;
+        document.getElementById('beer-type').textContent = randomBeer.beer_type;
+        document.getElementById('beer-abv').textContent = randomBeer.beer_abv;
+        document.getElementById('beer-ibu').textContent = randomBeer.beer_ibu;
+        document.getElementById('comment').textContent = randomBeer.comment;
+        document.getElementById('venue-name').textContent = randomBeer.venue_name;
+        document.getElementById('venue-city').textContent = randomBeer.venue_city;
+        document.getElementById('venue-state').textContent = randomBeer.venue_state;
+        document.getElementById('venue-country').textContent = randomBeer.venue_country;
+        document.getElementById('rating-score').textContent = randomBeer.rating_score;
+        document.getElementById('created-at').textContent = randomBeer.created_at;
+      },
+      error: function(error) {
+        console.error('Error loading CSV:', error);
+      }
+    });
+  }
+
+  // Load a random beer on page load
+  loadRandomBeer();
+</script>
+
+</body>
+</html>
