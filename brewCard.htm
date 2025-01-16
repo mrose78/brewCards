@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Beer Card</title>
+  <title>brewCard</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   <style>
@@ -15,7 +15,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background-color: #f4f4f4;
+      background-color: #f1e1e1;
     }
 
     .card {
@@ -33,7 +33,7 @@
       transform-style: preserve-3d;
     }
 
-    .card:hover .card-inner {
+    .card.flipped .card-inner {
       transform: rotateY(180deg);
     }
 
@@ -107,7 +107,7 @@
 </head>
 <body>
 
-<div class="card">
+<div class="card" onclick="toggleCardFlip()">
   <div class="card-inner">
     <!-- Front of the card -->
     <div class="card-front" id="card-front"></div>
@@ -131,6 +131,12 @@
 <button onclick="loadRandomBeer()">Load Random Beer</button>
 
 <script>
+  // Function to toggle the card flip
+  function toggleCardFlip() {
+    const card = document.querySelector('.card');
+    card.classList.toggle('flipped');
+  }
+
   // Function to fetch and parse the CSV file, then pick a random beer
   function loadRandomBeer() {
     Papa.parse('csv/checkins.csv', {
