@@ -3,106 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brew Day Recipe Viewer</title>
-    
-    <!-- DataTables CSS & JS -->
+    <title>DataTables JSON Example</title>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; text-align: center; }
-        table { width: 100%; margin-top: 20px; }
-        .container { width: 90%; margin: auto; }
-        #recipeDetails { display: none; text-align: left; border: 1px solid #ccc; padding: 20px; background: #f9f9f9; margin-top: 20px; }
-        @media print { #recipeTable, #backButton, #printButton { display: none; } }
-    </style>
 </head>
 <body>
-
-    <h1>Brew Day Recipe Viewer</h1>
+    <h2>Data Table from JSON</h2>
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+    </table>
     
-    <div class="container">
-        <table id="recipeTable" class="display">
-            <thead>
-                <tr>
-                    <th>Beer Name</th>
-                    <th>Style</th>
-                    <th>Author</th>
-                    <th>Date Added</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
-
-    <div id="recipeDetails">
-        <button id="backButton" onclick="goBack()">Back to List</button>
-        <button id="printButton" onclick="window.print()">Print</button>
-        <div id="detailsContent"></div>
-    </div>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
     <script>
-        let recipes = [];
-
-        async function fetchRecipes() {
-            const response = await fetch('https://script.googleusercontent.com/macros/echo?user_content_key=23x7V8XWJiSrfXbLh4TzujB9RR3yFU8F2ILaHC9202rP_qG6oMkXtARv0T5FwyWTYEM700dio9AszkZgc4hCFPlknOTqcJt-m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnGacGbtJB3asDP5wYYCDcJxuQ1VIB7i93izgpHloNn2HviWP94ZnC_8w-1yvhzPNew&lib=Mj1WIVhH01dtgQdlRMYmEglLlk8d2jkZN');
-            recipes = await response.json();
-            populateTable();
-        }
-
-        function populateTable() {
-            let tableBody = $("#recipeTable tbody");
-            tableBody.empty();
-
-            recipes.forEach((recipe, index) => {
-                let row = `<tr data-index="${index}">
-                    <td>${recipe["Beer Name"]}</td>
-                    <td>${recipe["Style"]}</td>
-                    <td>${recipe["Author"]}</td>
-                    <td>${recipe["Date Added"]}</td>
-                </tr>`;
-                tableBody.append(row);
+        $(document).ready(function() {
+            $('#example').DataTable({
+                "ajax": "https://script.google.com/macros/s/AKfycbw-FzfL2xXHaZBR_Tz7TCJ_DbGmGtyacOqLmfEdDHI/dev",
+                "columns": [
+                    { "data": "Beer Name" },
+                    { "data": "Author" },
+                    { "data": "Style" },
+                    { "data": "OG" }
+                ]
             });
-
-            $("#recipeTable").DataTable();
-
-            $("#recipeTable tbody").on("click", "tr", function () {
-                let index = $(this).data("index");
-                showRecipeDetails(index);
-            });
-        }
-
-        function showRecipeDetails(index) {
-            let recipe = recipes[index];
-            let detailsHTML = `
-                <h2>${recipe["Beer Name"]} (${recipe["Style"]})</h2>
-                <p><strong>Author:</strong> ${recipe["Author"]}</p>
-                <p><strong>Date Added:</strong> ${recipe["Date Added"]}</p>
-                <p><strong>OG:</strong> ${recipe["Original Gravity"]} | <strong>FG:</strong> ${recipe["Final Gravity"]}</p>
-                <p><strong>Batch Size:</strong> ${recipe["Batch Size"]} | <strong>Initial Water:</strong> ${recipe["Initial Water"]}</p>
-                <p><strong>Boil Duration:</strong> ${recipe["Boil Duration"]} mins</p>
-                <h3>Fermentables</h3><p>${recipe["Fermentables"]}</p>
-                <h3>Hops</h3><p>${recipe["Hops"]}</p>
-                <h3>Miscellaneous Additions</h3><p>${recipe["Misc"]}</p>
-                <h3>Yeast</h3><p>${recipe["Yeast"]}</p>
-                <h3>Mashing Instructions</h3><p>${recipe["Mashing Instructions"]}</p>
-                <h3>Fermentation</h3><p>${recipe["Fermentation"]}</p>
-                <h3>Notes</h3><p>${recipe["Notes"]}</p>
-            `;
-
-            $("#detailsContent").html(detailsHTML);
-            $("#recipeTable").hide();
-            $("#recipeDetails").show();
-        }
-
-        function goBack() {
-            $("#recipeDetails").hide();
-            $("#recipeTable").show();
-        }
-
-        fetchRecipes();
+        });
     </script>
-
 </body>
 </html>
