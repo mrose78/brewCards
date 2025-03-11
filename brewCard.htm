@@ -137,6 +137,29 @@
     card.classList.toggle('flipped');
   }
 
+  let defaultImages = {}; // Global cache for beer styles
+
+// Load beer styles at startup
+function loadBeerStyles() {
+    fetch('csv/styles.csv')
+        .then(response => response.text())
+        .then(text => {
+            const lines = text.split('\n').filter(line => line.trim() !== ''); // Remove empty lines
+
+            lines.forEach(line => {
+                const parts = line.split(',');
+                if (parts.length === 2) { // Ensure valid CSV structure
+                    const style = parts[0].trim();
+                    const image = parts[1].trim();
+                    defaultImages[style] = image;
+                }
+            });
+
+            console.log('Beer styles loaded:', defaultImages); // Debugging output
+        })
+        .catch(error => console.error('Error loading styles.csv:', error));
+}
+
   // Function to fetch and parse the CSV file, then pick a random beer
   function loadRandomBeer() {
     Papa.parse('csv/checkins.csv', {
@@ -145,9 +168,16 @@
       complete: function(results) {
         const beers = results.data;
         const randomBeer = beers[Math.floor(Math.random() * beers.length)];
+        //const photoUrl = randomBeer.photo_url ? randomBeer.photo_url : 'images/no_beer.png'; //comment out if not looping
+        const beerTypeElement = document.getElementById('beer-type');
+        if (beerTypeElement) {
+            beerTypeElement.textContent = randomBeer.beer_type;
+        }
 
-        // Use placeholder if photo_url is missing or empty
-        const photoUrl = randomBeer.photo_url ? randomBeer.photo_url : 'images/no_beer.png';
+        const defaultImage = defaultImages[randomBeer.beer_type] || 'images/no_beer.png';
+        const photoUrl = randomBeer.photo_url ? randomBeer.photo_url : defaultImage;
+
+        //console.log('Beer Image URL:', photoUrl); // Debugging output
 
         // Populate card with random beer data
         document.getElementById('card-front').style.backgroundImage = `url(${photoUrl})`;
@@ -172,6 +202,8 @@
 
   // Load a random beer on page load
   loadRandomBeer();
+
+  window.addEventListener('DOMContentLoaded', loadBeerStyles);
 </script>
 
 </body>
