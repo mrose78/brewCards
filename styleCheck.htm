@@ -23,7 +23,7 @@
             color: red;
             font-weight: bold;
         }
-        #toggleButton {
+        button {
             display: block;
             margin-bottom: 10px;
             padding: 10px;
@@ -38,6 +38,7 @@
 <body>
     <h2>Beer Styles Checklist</h2>
     <button id="toggleButton">Show Only Missing Styles</button>
+    <button id="toggleNoPhoto">Show Only Styles Without Photos</button>
     <div id="styles-list"></div>
     
     <script>
@@ -52,9 +53,18 @@
             const styles = await fetchCSV('csv/styles.csv');
             
             const styleCounts = {};
+            const stylesWithNoPhoto = new Set();
+            
             checkins.forEach(row => {
                 const style = row[2]; // Adjusted index for beer_type
-                if (style) styleCounts[style] = (styleCounts[style] || 0) + 1;
+                const photoUrl = row[27]; // Adjusted index for photo_url
+                
+                if (style) {
+                    styleCounts[style] = (styleCounts[style] || 0) + 1;
+                    if (!photoUrl) {
+                        stylesWithNoPhoto.add(style);
+                    }
+                }
             });
             
             const stylesList = document.getElementById('styles-list');
@@ -63,9 +73,12 @@
             styles.forEach(row => {
                 const style = row[0];
                 const count = styleCounts[style] || 0;
+                const noPhoto = stylesWithNoPhoto.has(style);
+
                 const item = document.createElement('div');
                 item.className = 'style-item';
                 item.dataset.count = count;
+                item.dataset.nophoto = noPhoto;
                 item.innerHTML = `
                     <span class="${count === 0 ? 'missing' : ''}">${style}</span>
                     <span>${count}</span>
@@ -87,6 +100,21 @@
             });
             
             this.textContent = showOnlyMissing ? 'Show All Styles' : 'Show Only Missing Styles';
+        });
+
+        document.getElementById('toggleNoPhoto').addEventListener('click', function () {
+            const items = document.querySelectorAll('.style-item');
+            const showOnlyNoPhoto = this.textContent === 'Show Only Styles Without Photos';
+            
+            items.forEach(item => {
+                if (showOnlyNoPhoto && item.dataset.nophoto !== 'true') {
+                    item.style.display = 'none';
+                } else {
+                    item.style.display = 'flex';
+                }
+            });
+            
+            this.textContent = showOnlyNoPhoto ? 'Show All Styles' : 'Show Only Styles Without Photos';
         });
         
         loadData();
