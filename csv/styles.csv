@@ -1,7 +1,7 @@
-Altbier - Sticke, images/Altbier - Sticke.jpeg
+Altbier - Sticke, images/styles/Altbier - Sticke.jpeg
 Altbier - Traditional, images/no_beer.png
 Australian Sparkling Ale, images/no_beer.png
-Barleywine - American, images/american-barleywine.jpeg
+Barleywine - American, images/styles/american-barleywine.jpeg
 Barleywine - English, images/no_beer.png
 Barleywine - Other, images/no_beer.png
 Belgian Blonde, images/no_beer.png
@@ -18,7 +18,7 @@ Bière de Champagne / Bière Brut, images/no_beer.png
 Black & Tan, images/no_beer.png
 Blonde / Golden Ale - American, images/no_beer.png
 Blonde / Golden Ale - English, images/no_beer.png
-Blonde / Golden Ale - Other, images/Blonde_Golden Ale - Other.jpeg
+Blonde / Golden Ale - Other, images/styles/Blonde_Golden Ale - Other.jpeg
 Bock - Doppelbock, images/no_beer.png
 Bock - Eisbock, images/no_beer.png
 Bock - Hell / Maibock / Lentebock, images/no_beer.png
@@ -56,12 +56,11 @@ Farmhouse Ale - Grisette, images/no_beer.png
 Farmhouse Ale - Kornøl, images/no_beer.png
 Farmhouse Ale - Other, images/no_beer.png
 Farmhouse Ale - Sahti, images/no_beer.png
-Farmhouse Ale - Saison, images/Farmhouse Ale - Saison.jpeg
+Farmhouse Ale - Saison, images/styles/Farmhouse Ale - Saison.jpeg
 Festbier, images/no_beer.png
 Flavored Malt Beverage, images/no_beer.png
 Freeze-Distilled Beer, images/no_beer.png
-Fruit Beer, images/no_beer.png
-Gluten-Free, images/Gluten-Free.jpeg
+Fruit Beer, images/styles/Fruit Beer.jpeg
 Golden Ale - Ukrainian, images/no_beer.png
 Grape Ale - Italian, images/no_beer.png
 Grape Ale - Other, images/no_beer.png
@@ -85,22 +84,22 @@ Historical Beer - Other, images/no_beer.png
 Historical Beer - Steinbier, images/no_beer.png
 Historical Beer - Zoigl, images/no_beer.png
 Honey Beer, images/no_beer.png
-IPA - American, images/styles/IPA - American.jpeg
+IPA - American, images/styles/IPA-American.jpeg
 IPA - Belgian, images/no_beer.png
 IPA - Black / Cascadian Dark Ale, images/no_beer.png
 IPA - Brett, images/no_beer.png
 IPA - Brown, images/no_beer.png
 IPA - Brut, images/no_beer.png
 IPA - Cold, images/no_beer.png
-IPA - English, images/no_beer.png
+IPA - English, images/styles/IPA - English.jpeg
 IPA - Farmhouse, images/no_beer.png
 IPA - Fruited, images/no_beer.png
-IPA - Imperial / Double, images/IPA - Imperial_Double.jpeg
+IPA - Imperial / Double, images/styles/IPA - Imperial_Double.jpeg
 IPA - Imperial / Double Black, images/no_beer.png
 IPA - Imperial / Double Milkshake, images/no_beer.png
 IPA - Imperial / Double New England / Hazy, images/no_beer.png
 IPA - Milkshake, images/no_beer.png
-IPA - New England / Hazy, images/IPA - New England_Hazy.jpeg
+IPA - New England / Hazy, images/styles/IPA - New England_Hazy.jpeg
 IPA - New Zealand, images/no_beer.png
 IPA - Other, images/no_beer.png
 IPA - Quadruple, images/no_beer.png
@@ -123,13 +122,13 @@ Lager - American Pre-Prohibition, images/no_beer.png
 Lager - Dark, images/no_beer.png
 Lager - Dortmunder / Export, images/no_beer.png
 Lager - Helles, images/no_beer.png
-Lager - IPL (India Pale Lager), images/Lager - IPL (India Pale Lager).jpeg
+Lager - IPL (India Pale Lager), images/styles/Lager - IPL (India Pale Lager).jpeg
 Lager - Japanese Rice, images/no_beer.png
 Lager - Leichtbier, images/no_beer.png
 Lager - Mexican, images/no_beer.png
 Lager - Munich Dunkel, images/no_beer.png
 Lager - Other, images/no_beer.png
-Lager - Pale, images/Lager - Pale.jpeg
+Lager - Pale, images/styles/Lager - Pale.jpeg
 Lager - Polotmavé (Czech Amber), images/no_beer.png
 Lager - Rotbier, images/no_beer.png
 Lager - Smoked, images/no_beer.png
@@ -173,7 +172,7 @@ Non-Alcoholic Beer - Wheat Beer, images/no_beer.png
 Non-Alcoholic Cider / Perry, images/no_beer.png
 Non-Alcoholic Mead, images/no_beer.png
 Old / Stock Ale, images/no_beer.png
-Pale Ale - American, images/Pale Ale - American.jpeg
+Pale Ale - American, images/styles/Pale Ale - American.jpeg
 Pale Ale - Australian, images/no_beer.png
 Pale Ale - Belgian, images/no_beer.png
 Pale Ale - English, images/no_beer.png
@@ -192,7 +191,7 @@ Pilsner - Other, images/no_beer.png
 Porter - American, images/Porter - American.jpeg
 Porter - Baltic, images/no_beer.png
 Porter - Coffee, images/no_beer.png
-Porter - English, images/styles/porter-english.jpeg
+Porter - English, images/styles/styles/porter-english.jpeg
 Porter - Imperial / Double, images/no_beer.png
 Porter - Imperial / Double Baltic, images/no_beer.png
 Porter - Imperial / Double Coffee, images/no_beer.png
@@ -200,7 +199,7 @@ Porter - Other, images/no_beer.png
 Porter - Smoked, images/no_beer.png
 Pumpkin / Yam Beer, images/Pumpkin_Yam Beer.jpeg
 Rauchbier, images/no_beer.png
-Red Ale - American Amber / Red, images/Red Ale - American Amber_Red.jpeg
+Red Ale - American Amber / Red, images/styles/Red Ale - American Amber_Red.jpeg
 Red Ale - Imperial / Double, images/no_beer.png
 Red Ale - Irish, images/no_beer.png
 Red Ale - Other, images/no_beer.png
@@ -221,7 +220,7 @@ Sour - Flanders Oud Bruin, images/no_beer.png
 Sour - Flanders Red Ale, images/no_beer.png
 Sour - Fruited, images/no_beer.png
 Sour - Fruited Berliner Weisse, images/no_beer.png
-Sour - Fruited Gose, images/Sour - Fruited Gose.jpeg
+Sour - Fruited Gose, images/styles/Sour - Fruited Gose.jpeg
 Sour - Other, images/no_beer.png
 Sour - Other Gose, images/no_beer.png
 Sour - Smoothie / Pastry, images/no_beer.png
@@ -253,10 +252,10 @@ Strong Ale - English, images/no_beer.png
 Strong Ale - Other, images/no_beer.png
 Table Beer, images/no_beer.png
 Traditional Ale, images/no_beer.png
-Wheat Beer - American Pale Wheat, images/no_beer.png
+Wheat Beer - American Pale Wheat, images/styles/Wheat Beer - American Pale Wheat.jpeg
 Wheat Beer - Dunkelweizen, images/no_beer.png
 Wheat Beer - Fruited, images/no_beer.png
-Wheat Beer - Hefeweizen, images/no_beer.png
+Wheat Beer - Hefeweizen, images/styles/Wheat Beer - Hefeweizen.jpeg
 Wheat Beer - Hefeweizen Light / Leicht, images/no_beer.png
 Wheat Beer - Hopfenweisse, images/no_beer.png
 Wheat Beer - Kristallweizen, images/no_beer.png
